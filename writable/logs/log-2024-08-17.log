@@ -1,0 +1,463 @@
+CRITICAL - 2024-08-17 11:10:08 --> Call to undefined method App\Models\M_burger::getWherepol
+#0 C:\burger\app\Controllers\Home.php(386): CodeIgniter\Model->__call('getWherepol', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 00:09:36 --> Cannot redeclare App\Controllers\Home::update_rating()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-08-17 00:11:25 --> Class 'App\Controllers\OrderModel' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->e_rating()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-17 00:11:45 --> There is no data to update.
+#0 C:\burger\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\burger\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\burger\app\Models\M_burger.php(439): CodeIgniter\Model->update('202408162308181...', Array)
+#3 C:\burger\app\Controllers\Home.php(842): App\Models\M_burger->update_rating('202408162308181...', Array)
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->e_rating()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+CRITICAL - 2024-08-17 00:26:42 --> Call to undefined method App\Models\M_burger::updateByKodeTransaksi
+#0 C:\burger\app\Controllers\Home.php(1162): CodeIgniter\Model->__call('updateByKodeTra...', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->upload_bukti()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-08-17 00:27:52 --> Unknown column 'kode_transaksi' in 'where clause'
+ERROR - 2024-08-17 00:52:32 --> Unknown column 'kode_transaksi' in 'where clause'
+CRITICAL - 2024-08-17 01:56:14 --> syntax error, unexpected end of file, expecting ';' or ','
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('history', Array, true)
+#2 C:\burger\app\Controllers\Home.php(855): view('history', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->history()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-08-17 01:57:20 --> syntax error, unexpected '/'
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('history', Array, true)
+#2 C:\burger\app\Controllers\Home.php(855): view('history', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->history()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+ERROR - 2024-08-17 02:03:53 --> Unknown column 'kode_transaksi' in 'where clause'
+CRITICAL - 2024-08-17 02:07:57 --> There is no data to update.
+#0 C:\burger\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\burger\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\burger\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\burger\app\Models\M_burger.php(104): CodeIgniter\Model->update(Array)
+#4 C:\burger\app\Controllers\Home.php(1161): App\Models\M_burger->updateByKodeTransaksi('202408170108491...', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->upload_bukti()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-08-17 02:08:59 --> There is no data to update.
+#0 C:\burger\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\burger\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\burger\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\burger\app\Models\M_burger.php(104): CodeIgniter\Model->update(Array)
+#4 C:\burger\app\Controllers\Home.php(1165): App\Models\M_burger->updateByKodeTransaksi('202408170108491...', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->upload_bukti()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+ERROR - 2024-08-17 02:10:19 --> Unknown column 'kode_transaksi' in 'where clause'
+ERROR - 2024-08-17 02:10:45 --> Unknown column 'kode_transaksi' in 'where clause'
+ERROR - 2024-08-17 02:14:33 --> Unknown column 'kode_transaksi' in 'where clause'
+CRITICAL - 2024-08-17 02:16:59 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/history')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/history')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 02:17:23 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/history')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/history')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 02:17:27 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/history')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/history')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 02:17:42 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/history')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/history')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-08-17 02:31:34 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 02:33:55 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 05:47:54 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 05:49:07 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2024-08-17 18:10:01 --> array_map(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_map(): Ex...', 'C:\\burger\\app\\V...', 103, Array)
+#1 C:\burger\app\Views\pesanan1.php(103): array_map(Object(Closure), NULL)
+#2 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#3 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('pesanan1', Array, true)
+#5 C:\burger\app\Controllers\Home.php(1231): view('pesanan1', Array)
+#6 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->pesanan()
+#7 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#11 {main}
+CRITICAL - 2024-08-17 18:10:33 --> array_map(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_map(): Ex...', 'C:\\burger\\app\\V...', 103, Array)
+#1 C:\burger\app\Views\pesanan1.php(103): array_map(Object(Closure), NULL)
+#2 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#3 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('pesanan1', Array, true)
+#5 C:\burger\app\Controllers\Home.php(1231): view('pesanan1', Array)
+#6 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->pesanan()
+#7 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#11 {main}
+ERROR - 2024-08-17 06:25:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-08-17 06:25:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\burger\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\burger\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\burger\app\Models\M_burger.php(287): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\burger\app\Controllers\Home.php(1218): App\Models\M_burger->tampilgambar('toko')
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->pesanan()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+CRITICAL - 2024-08-17 18:31:43 --> array_map(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_map(): Ex...', 'C:\\burger\\app\\V...', 99, Array)
+#1 C:\burger\app\Views\pesanan1.php(99): array_map(Object(Closure), NULL)
+#2 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#3 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('pesanan1', Array, true)
+#5 C:\burger\app\Controllers\Home.php(1231): view('pesanan1', Array)
+#6 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->pesanan()
+#7 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#11 {main}
+CRITICAL - 2024-08-17 18:32:07 --> array_map(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_map(): Ex...', 'C:\\burger\\app\\V...', 99, Array)
+#1 C:\burger\app\Views\pesanan1.php(99): array_map(Object(Closure), NULL)
+#2 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#3 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('pesanan1', Array, true)
+#5 C:\burger\app\Controllers\Home.php(1231): view('pesanan1', Array)
+#6 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->pesanan()
+#7 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#11 {main}
+CRITICAL - 2024-08-17 18:32:55 --> array_map(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_map(): Ex...', 'C:\\burger\\app\\V...', 99, Array)
+#1 C:\burger\app\Views\pesanan1.php(99): array_map(Object(Closure), NULL)
+#2 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#3 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('pesanan1', Array, true)
+#5 C:\burger\app\Controllers\Home.php(1231): view('pesanan1', Array)
+#6 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->pesanan()
+#7 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#11 {main}
+ERROR - 2024-08-17 06:48:08 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2024-08-17 06:48:41 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2024-08-17 06:55:58 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 07:12:40 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2024-08-17 07:28:49 --> Unknown column 'created_by' in 'field list'
+ERROR - 2024-08-17 07:28:49 --> Database error: Array
+ERROR - 2024-08-17 07:28:49 --> Gagal menyimpan data transaksi: {"tgl_transaksi":"2024-08-17 07:28:49","kode_transaksi":"2024081707084910","id_user":"10","id_makanan":"26","jumlah":"2","total_harga":"40","created_by":"10","status":"unconfirmed"}
+ERROR - 2024-08-17 07:28:57 --> Unknown column 'created_by' in 'field list'
+ERROR - 2024-08-17 07:28:57 --> Database error: Array
+ERROR - 2024-08-17 07:28:57 --> Gagal menyimpan data transaksi: {"tgl_transaksi":"2024-08-17 07:28:57","kode_transaksi":"2024081707085710","id_user":"10","id_makanan":"26","jumlah":"2","total_harga":"40","created_by":"10","status":"unconfirmed"}
+ERROR - 2024-08-17 07:30:10 --> Unknown column 'created_by' in 'field list'
+ERROR - 2024-08-17 07:30:10 --> Database error: Array
+ERROR - 2024-08-17 07:30:10 --> Gagal menyimpan data transaksi: {"tgl_transaksi":"2024-08-17 07:30:10","kode_transaksi":"2024081707081010","id_user":"10","id_makanan":"26","jumlah":"2","total_harga":"40","created_by":"10","status":"unconfirmed"}
+ERROR - 2024-08-17 07:31:26 --> Unknown column 'created_by' in 'field list'
+ERROR - 2024-08-17 07:31:26 --> Database error: Array
+ERROR - 2024-08-17 07:31:26 --> Gagal menyimpan data transaksi: {"tgl_transaksi":"2024-08-17 07:31:26","kode_transaksi":"2024081707082610","id_user":"10","id_makanan":"26","jumlah":"2","total_harga":"40","created_by":"10","status":"unconfirmed"}
+ERROR - 2024-08-17 07:31:46 --> Unknown column 'created_by' in 'field list'
+ERROR - 2024-08-17 07:31:46 --> Database error: Array
+ERROR - 2024-08-17 07:31:46 --> Gagal menyimpan data transaksi: {"tgl_transaksi":"2024-08-17 07:31:46","kode_transaksi":"2024081707084610","id_user":"10","id_makanan":"27","jumlah":"6","total_harga":"1200000","created_by":"10","status":"unconfirmed"}
+ERROR - 2024-08-17 07:34:20 --> Unknown column 'created_by' in 'field list'
+ERROR - 2024-08-17 07:34:20 --> Database error: Array
+ERROR - 2024-08-17 07:34:20 --> Gagal menyimpan data transaksi: {"tgl_transaksi":"2024-08-17 07:34:20","kode_transaksi":"2024081707082010","id_user":"10","id_makanan":"27","jumlah":"6","total_harga":"1200000","created_by":"10","status_pembayaran":"unconfirmed"}
+CRITICAL - 2024-08-17 07:37:21 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:38:02 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:38:39 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:39:24 --> syntax error, unexpected '<', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:39:34 --> syntax error, unexpected '}', expecting end of file
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:39:43 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:39:52 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:40:03 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:40:13 --> syntax error, unexpected '$model' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:42:19 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:43:02 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:43:27 --> syntax error, unexpected '$model' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 07:44:14 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-17 20:27:55 --> Call to a member function query() on null
+#0 C:\burger\system\View\View.php(210): include()
+#1 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('pesanan1', Array, true)
+#3 C:\burger\app\Controllers\Home.php(1252): view('pesanan1', Array)
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->pesanan()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+ERROR - 2024-08-17 08:29:58 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 08:37:53 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2024-08-17 08:42:46 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_excel()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-17 08:44:14 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_excel()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-17 08:44:29 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_excel()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-17 08:44:46 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_excel()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-17 09:03:30 --> syntax error, unexpected 'endif' (T_ENDIF)
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('laporan_pdf', Array, true)
+#2 C:\burger\app\Controllers\Home.php(951): view('laporan_pdf', Array)
+#3 C:\burger\app\Controllers\Home.php(935): App\Controllers\Home->laporan_pdf('', '')
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_pdf()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+CRITICAL - 2024-08-17 09:04:40 --> syntax error, unexpected 'endif' (T_ENDIF)
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('laporan_pdf', Array, true)
+#2 C:\burger\app\Controllers\Home.php(951): view('laporan_pdf', Array)
+#3 C:\burger\app\Controllers\Home.php(935): App\Controllers\Home->laporan_pdf('', '')
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_pdf()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+CRITICAL - 2024-08-17 09:04:52 --> Invalid argument supplied for foreach()
+#0 C:\burger\app\Views\laporan_pdf.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\burger\\app\\V...', 44, Array)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('laporan_pdf', Array, true)
+#4 C:\burger\app\Controllers\Home.php(951): view('laporan_pdf', Array)
+#5 C:\burger\app\Controllers\Home.php(935): App\Controllers\Home->laporan_pdf('', '')
+#6 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_pdf()
+#7 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#11 {main}
+ERROR - 2024-08-17 09:06:59 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 09:08:50 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 09:10:10 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 09:10:26 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 09:11:36 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 09:11:47 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 09:13:05 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2024-08-17 09:15:20 --> Cannot use object of type stdClass as array
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_excel()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-17 09:17:49 --> Call to a member function jointigawhere() on null
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_window_result()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-17 09:18:11 --> Call to a member function jointigawhere() on null
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_window_result()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+ERROR - 2024-08-17 09:19:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ORDER BY `transaksi`.`id_transaksi` DESC' at line 5
+CRITICAL - 2024-08-17 09:19:16 --> Call to a member function getResult() on bool
+#0 C:\burger\app\Controllers\Home.php(1013): App\Models\M_burger->jointigawhere('transaksi', 'makanan', 'user', 'transaksi.id_ma...', 'transaksi.id_us...', 'transaksi.id_tr...', '')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->generate_window_result()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-08-17 22:06:16 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2024-08-17 22:11:38 --> Call to undefined method App\Controllers\Home::validateRecaptcha()
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-17 22:38:57 --> Cannot redeclare App\Controllers\Home::validateRecaptcha()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-08-17 22:45:45 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 22:46:30 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 23:00:16 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 23:05:44 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 23:08:53 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 23:24:20 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 23:25:02 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 23:26:40 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-17 23:29:15 --> Unknown column 'status' in 'where clause'

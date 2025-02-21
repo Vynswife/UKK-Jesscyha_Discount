@@ -1,0 +1,200 @@
+ERROR - 2024-11-06 18:00:43 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:00:43 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 05:00:43 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 05:00:43 --> Table 'office.toko' doesn't exist
+CRITICAL - 2024-11-06 05:00:43 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(37): App\Models\M_burger->tampilgambar('toko')
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+ERROR - 2024-11-06 05:01:12 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 05:01:12 --> Table 'office.toko' doesn't exist
+CRITICAL - 2024-11-06 05:01:12 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(37): App\Models\M_burger->tampilgambar('toko')
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+ERROR - 2024-11-06 05:02:08 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:02:08 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:02:27 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:03:11 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:03:23 --> Table 'office.history_edit' doesn't exist
+ERROR - 2024-11-06 18:03:23 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-06 18:03:24 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:04:05 --> Table 'office.history_edit' doesn't exist
+ERROR - 2024-11-06 18:04:05 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-06 18:04:05 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:04:28 --> Table 'office.history_edit' doesn't exist
+ERROR - 2024-11-06 18:04:28 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-06 18:04:29 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:07:25 --> Table 'office.history_edit' doesn't exist
+ERROR - 2024-11-06 18:07:25 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-06 18:07:25 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:11:41 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:12:23 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:14:28 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:14:53 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:15:46 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:16:21 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:18:16 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:18:16 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:18:20 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:18:32 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:18:32 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:18:32 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:20:25 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:20:25 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:20:27 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:20:34 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:20:34 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:20:34 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:22:29 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:22:40 --> Table 'office.history_edit' doesn't exist
+ERROR - 2024-11-06 18:22:40 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-06 18:22:40 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:23:07 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:23:07 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:23:10 --> Table 'office.keranjang' doesn't exist
+CRITICAL - 2024-11-06 05:23:10 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(378): App\Models\M_burger->jointigawhere('keranjang', 'makanan', 'user', 'keranjang.id_ma...', 'keranjang.id_us...', 'keranjang.id_ke...', Array)
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+ERROR - 2024-11-06 05:23:12 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:23:12 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:23:17 --> Table 'office.transaksi' doesn't exist
+CRITICAL - 2024-11-06 05:23:17 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(820): App\Models\M_burger->jointigawhere('transaksi', 'makanan', 'user', 'transaksi.id_ma...', 'transaksi.id_us...', 'transaksi.id_tr...', Array)
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->history()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+ERROR - 2024-11-06 05:23:21 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:23:21 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:30:04 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:30:04 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:30:06 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:30:14 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:30:14 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:30:14 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:30:37 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:30:46 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 18:31:55 --> Table 'office.activity_logs' doesn't exist
+ERROR - 2024-11-06 05:31:56 --> Table 'office.keranjang' doesn't exist
+ERROR - 2024-11-06 18:31:56 --> Table 'office.activity_logs' doesn't exist
+CRITICAL - 2024-11-06 05:52:07 --> Call to undefined method stdClass::getRow()
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->profile('1')
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-06 05:58:20 --> Call to undefined method stdClass::getRow()
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->profile('1')
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-06 06:05:18 --> syntax error, unexpected ')', expecting ';' or ','
+#0 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\office\app\Controllers\Home.php(42): view('menu', Array)
+#3 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#4 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#8 {main}
+ERROR - 2024-11-06 06:21:07 --> Table 'office.surat_m' doesn't exist
+CRITICAL - 2024-11-06 06:21:07 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(240): App\Models\M_burger->tampil('surat_m')
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->persuratan()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+ERROR - 2024-11-06 06:36:07 --> Table 'office.surat_m' doesn't exist
+CRITICAL - 2024-11-06 06:36:07 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(240): App\Models\M_burger->tampil('surat_m')
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->persuratan()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+CRITICAL - 2024-11-06 06:36:17 --> Invalid argument supplied for foreach()
+#0 C:\office\app\Views\persuratan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\office\\app\\V...', 88, Array)
+#1 C:\office\system\View\View.php(210): include('C:\\office\\app\\V...')
+#2 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('persuratan', Array, true)
+#4 C:\office\app\Controllers\Home.php(251): view('persuratan', Array)
+#5 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->persuratan()
+#6 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#10 {main}
+CRITICAL - 2024-11-06 06:36:40 --> Invalid argument supplied for foreach()
+#0 C:\office\app\Views\persuratan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\office\\app\\V...', 88, Array)
+#1 C:\office\system\View\View.php(210): include('C:\\office\\app\\V...')
+#2 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('persuratan', Array, true)
+#4 C:\office\app\Controllers\Home.php(251): view('persuratan', Array)
+#5 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->persuratan()
+#6 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#10 {main}
+CRITICAL - 2024-11-06 06:36:53 --> Invalid argument supplied for foreach()
+#0 C:\office\app\Views\persuratan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\office\\app\\V...', 88, Array)
+#1 C:\office\system\View\View.php(210): include('C:\\office\\app\\V...')
+#2 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('persuratan', Array, true)
+#4 C:\office\app\Controllers\Home.php(251): view('persuratan', Array)
+#5 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->persuratan()
+#6 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#10 {main}
+ERROR - 2024-11-06 06:37:35 --> Table 'office.surat_m' doesn't exist
+CRITICAL - 2024-11-06 06:37:35 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(240): App\Models\M_burger->tampil('surat_m')
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->persuratan()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+ERROR - 2024-11-06 20:40:41 --> Table 'office.surat_m' doesn't exist
+CRITICAL - 2024-11-06 20:40:41 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(240): App\Models\M_burger->tampil('surat_m')
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->persuratan()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+ERROR - 2024-11-06 20:40:45 --> Table 'office.surat_m' doesn't exist
+CRITICAL - 2024-11-06 20:40:45 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(240): App\Models\M_burger->tampil('surat_m')
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->persuratan()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}

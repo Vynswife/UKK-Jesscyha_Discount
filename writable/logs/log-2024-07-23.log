@@ -1,0 +1,270 @@
+CRITICAL - 2024-07-23 00:01:08 --> Undefined property: stdClass::$nama
+#0 C:\burger\app\Controllers\Home.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\burger\\app\\C...', 99)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-23 00:02:27 --> Undefined property: stdClass::$nama
+#0 C:\burger\app\Controllers\Home.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\burger\\app\\C...', 99)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-23 00:03:58 --> Undefined property: stdClass::$id
+#0 C:\burger\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\burger\\app\\C...', 100)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-23 00:38:19 --> Class "App\Controllers\M_Sakit" not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+ERROR - 2024-07-23 00:38:31 --> Unknown column 'password' in 'where clause'
+CRITICAL - 2024-07-23 00:38:31 --> Call to a member function getRow() on bool
+#0 C:\burger\app\Controllers\Home.php(100): App\Models\M_burger->getWhere('user', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-23 00:39:02 --> Class "App\Models\M_burger" not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+ERROR - 2024-07-23 00:39:15 --> Unknown column 'password' in 'where clause'
+CRITICAL - 2024-07-23 00:39:15 --> Call to a member function getRow() on bool
+#0 C:\burger\app\Controllers\Home.php(100): App\Models\M_burger->getWhere('user', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-07-23 00:39:58 --> Unknown column 'password' in 'where clause'
+CRITICAL - 2024-07-23 00:39:58 --> Call to a member function getRow() on bool
+#0 C:\burger\app\Controllers\Home.php(100): App\Models\M_burger->getWhere('user', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-07-23 00:40:37 --> Unknown column 'password' in 'where clause'
+CRITICAL - 2024-07-23 00:40:37 --> Call to a member function getRow() on bool
+#0 C:\burger\app\Controllers\Home.php(100): App\Models\M_burger->getWhere('user', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-07-23 00:40:39 --> Unknown column 'password' in 'where clause'
+CRITICAL - 2024-07-23 00:40:39 --> Call to a member function getRow() on bool
+#0 C:\burger\app\Controllers\Home.php(100): App\Models\M_burger->getWhere('user', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-23 00:47:31 --> Class "App\Controllers\M_Sakit" not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+ERROR - 2024-07-23 00:47:47 --> Table 'burger.petugas' doesn't exist
+CRITICAL - 2024-07-23 00:47:47 --> Call to a member function getRow() on bool
+#0 C:\burger\app\Controllers\Home.php(138): App\Models\M_burger->getWhere('petugas', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-23 00:51:52 --> Too few arguments to function App\Models\M_burger::tampil(), 1 passed in C:\burger\app\Controllers\Home.php on line 277 and exactly 2 expected
+#0 C:\burger\app\Controllers\Home.php(277): App\Models\M_burger->tampil('user')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-23 00:51:55 --> You must set the database table to be used with your query.
+#0 C:\burger\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\burger\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\burger\app\Controllers\Home.php(324): CodeIgniter\Model->__call('tampil_join', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-23 00:51:58 --> You must set the database table to be used with your query.
+#0 C:\burger\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\burger\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\burger\app\Controllers\Home.php(324): CodeIgniter\Model->__call('tampil_join', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-23 00:52:13 --> Too few arguments to function App\Models\M_burger::tampil(), 1 passed in C:\burger\app\Controllers\Home.php on line 277 and exactly 2 expected
+#0 C:\burger\app\Controllers\Home.php(277): App\Models\M_burger->tampil('user')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-23 00:53:36 --> Cannot redeclare App\Models\M_burger::tampil()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-23 00:53:57 --> Cannot redeclare App\Models\M_burger::join()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-23 00:54:27 --> Cannot redeclare App\Models\M_burger::getLaporanByDate()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-23 01:05:39 --> Undefined variable $php
+#0 C:\burger\app\Views\t_burger.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 27)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('t_burger', Array, true)
+#4 C:\burger\app\Controllers\Home.php(218): view('t_burger', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->t_burger()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-23 01:05:55 --> Undefined variable $php
+#0 C:\burger\app\Views\t_burger.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 27)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('t_burger', Array, true)
+#4 C:\burger\app\Controllers\Home.php(218): view('t_burger', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->t_burger()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-23 01:06:06 --> Undefined variable $php
+#0 C:\burger\app\Views\t_burger.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 27)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('t_burger', Array, true)
+#4 C:\burger\app\Controllers\Home.php(218): view('t_burger', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->t_burger()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-23 01:14:54 --> Undefined variable $kin
+#0 C:\burger\app\Views\user.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 15)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\burger\app\Controllers\Home.php(208): view('user', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-23 01:15:04 --> Undefined variable $kin
+#0 C:\burger\app\Views\user.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 15)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\burger\app\Controllers\Home.php(208): view('user', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-23 01:21:12 --> Unclosed '{' on line 15
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#2 C:\burger\app\Controllers\Home.php(208): view('user', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-23 20:47:13 --> Class "App\Controllers\M_gudang" not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->t_keranjang()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-07-23 20:59:52 --> Class "App\Controllers\M_polisi" not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->form('4')
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-07-23 22:47:55 --> Undefined property: stdClass::$id_user
+#0 C:\burger\app\Views\admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\burger\\app\\V...', 37)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('admin', Array, true)
+#4 C:\burger\app\Controllers\Home.php(396): view('admin', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->admin()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-23 22:48:08 --> Undefined property: stdClass::$id_user
+#0 C:\burger\app\Views\admin.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\burger\\app\\V...', 42)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('admin', Array, true)
+#4 C:\burger\app\Controllers\Home.php(396): view('admin', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->admin()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+ERROR - 2024-07-23 23:29:35 --> Table 'burger.admin' doesn't exist
+CRITICAL - 2024-07-23 23:29:35 --> Call to a member function getRow() on bool
+#0 C:\burger\app\Controllers\Home.php(68): App\Models\M_burger->getWhere('admin', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-07-23 23:33:27 --> Table 'burger.nota' doesn't exist
+CRITICAL - 2024-07-23 23:33:27 --> Call to a member function getResult() on bool
+#0 C:\burger\app\Controllers\Home.php(516): App\Models\M_burger->tampil('nota')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->nota()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}

@@ -1,0 +1,27 @@
+ERROR - 2025-02-21 07:48:52 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-21 07:48:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(550): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\calc\app\Controllers\Home.php(142): App\Models\M_burger->tampilgambar('toko')
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-21 07:49:06 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 07:49:08 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 07:49:20 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 08:10:46 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 08:11:31 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 08:13:27 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 08:15:06 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 08:16:24 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 08:32:11 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 08:32:25 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 08:32:42 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-21 08:32:52 --> Can't write; duplicate key in table 'activity_logs'

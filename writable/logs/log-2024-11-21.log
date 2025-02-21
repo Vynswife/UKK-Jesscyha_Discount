@@ -1,0 +1,99 @@
+ERROR - 2024-11-21 04:21:18 --> MySQL server has gone away
+CRITICAL - 2024-11-21 04:21:18 --> Call to a member function getResult() on bool
+#0 C:\sharin\app\Controllers\Home.php(32): App\Models\M_burger->tampilgambar('toko')
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+CRITICAL - 2024-11-21 06:00:04 --> syntax error, unexpected '$where1' (T_VARIABLE), expecting ')'
+#0 C:\sharin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/post/1')
+#1 C:\sharin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/post/1')
+#2 C:\sharin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+CRITICAL - 2024-11-21 06:05:47 --> Too few arguments to function App\Controllers\Home::post(), 0 passed in C:\sharin\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post()
+#1 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#5 {main}
+ERROR - 2024-11-21 06:07:31 --> Table 'sharing.foto' doesn't exist
+CRITICAL - 2024-11-21 06:07:31 --> Call to a member function getResultArray() on bool
+#0 C:\sharin\app\Controllers\Home.php(560): App\Models\M_burger->tampil_foto('foto')
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->restore()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+CRITICAL - 2024-11-21 06:08:29 --> Call to undefined method App\Models\M_burger::tampil_deleted
+#0 C:\sharin\app\Controllers\Home.php(560): CodeIgniter\Model->__call('tampil_deleted', Array)
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->restore()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+CRITICAL - 2024-11-21 06:08:38 --> Call to undefined method App\Models\M_burger::tampil_deleted
+#0 C:\sharin\app\Controllers\Home.php(560): CodeIgniter\Model->__call('tampil_deleted', Array)
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->restore()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+CRITICAL - 2024-11-21 06:11:16 --> syntax error, unexpected end of file
+#0 C:\sharin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\sharin\system\Common.php(1089): CodeIgniter\View\View->render('restore', Array, true)
+#2 C:\sharin\app\Controllers\Home.php(575): view('restore', Array)
+#3 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->restore()
+#4 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#8 {main}
+CRITICAL - 2024-11-21 06:14:34 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\sharin\app\Models\M_burger.php on line 86
+#0 C:\sharin\app\Models\M_burger.php(86): CodeIgniter\Database\BaseBuilder->join(NULL, 'posts.id_user=u...', 'left')
+#1 C:\sharin\app\Controllers\Home.php(560): App\Models\M_burger->tampil_deleted2('posts', 'user', 'posts.id_user=u...')
+#2 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->restore()
+#3 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#7 {main}
+CRITICAL - 2024-11-21 06:21:48 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\sharin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\sharin\system\Common.php(1089): CodeIgniter\View\View->render('restore', Array, true)
+#2 C:\sharin\app\Controllers\Home.php(575): view('restore', Array)
+#3 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->restore()
+#4 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#8 {main}
+CRITICAL - 2024-11-21 06:30:52 --> Too few arguments to function App\Controllers\Home::r_post(), 0 passed in C:\sharin\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->r_post()
+#1 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#5 {main}
+CRITICAL - 2024-11-21 06:34:21 --> Too few arguments to function App\Controllers\Home::post(), 0 passed in C:\sharin\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post()
+#1 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#5 {main}
+CRITICAL - 2024-11-21 06:34:41 --> Too few arguments to function App\Controllers\Home::post(), 0 passed in C:\sharin\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post()
+#1 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#5 {main}

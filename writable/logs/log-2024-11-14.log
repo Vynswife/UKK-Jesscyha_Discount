@@ -1,0 +1,328 @@
+ERROR - 2024-11-14 17:53:09 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-14 04:53:24 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 04:53:24 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 04:53:24 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 04:53:24 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:21:12 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:21:12 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:21:12 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:21:12 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:21:38 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:21:38 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:21:38 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:21:38 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:22:51 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:22:51 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:22:51 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:22:51 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:22:51 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(273): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 05:23:23 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:23 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:23 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:23 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:23:23 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(273): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 05:23:30 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:30 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:30 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:30 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:23:30 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(273): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 05:23:40 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:40 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:40 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:40 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:23:40 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(273): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 05:23:50 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:50 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:50 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:23:50 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:28:09 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:28:09 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:28:09 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:28:09 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:29:27 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:29:27 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:29:27 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:29:27 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:29:57 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:29:57 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:29:57 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:29:57 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:30:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:30:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:30:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:30:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:30:45 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:30:45 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:30:45 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:30:45 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:31:29 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:31:29 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:31:29 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:31:29 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:33:26 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:33:26 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:33:26 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:33:26 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:33:26 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(274): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 05:33:32 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:33:32 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:33:32 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:33:32 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:33:33 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(274): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 05:34:23 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:34:23 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:34:23 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:34:23 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:34:23 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(274): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 05:34:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:34:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:34:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:34:33 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:34:33 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(274): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 05:34:39 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:34:39 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:34:39 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:34:39 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:34:39 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(274): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 05:35:07 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:35:07 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:35:07 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:35:07 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:03 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:03 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:03 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:03 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:13 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:13 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:13 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:13 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:25 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:25 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:25 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:37:25 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:39:06 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:39:06 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:39:06 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:39:06 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:40:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:40:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:40:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:40:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:41:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:41:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:41:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:41:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:21 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:21 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:21 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:21 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:39 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:39 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:39 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:39 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:57 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:57 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:57 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:42:57 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:43:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:43:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:43:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:43:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:02 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:02 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:02 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:02 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:19 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:19 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:19 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:19 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:44:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:45:50 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:45:50 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:45:50 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:45:50 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:46:04 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:46:04 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:46:04 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-14 05:46:04 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-14 05:58:57 --> Call to undefined method App\Models\M_burger::getSuratCount
+#0 C:\galeri\app\Controllers\Home.php(30): CodeIgniter\Model->__call('getSuratCount', Array)
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+CRITICAL - 2024-11-14 05:59:01 --> Call to undefined method App\Models\M_burger::getSuratCount
+#0 C:\galeri\app\Controllers\Home.php(30): CodeIgniter\Model->__call('getSuratCount', Array)
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+ERROR - 2024-11-14 06:04:35 --> Unknown column 'foto.title' in 'field list'
+CRITICAL - 2024-11-14 06:04:35 --> Call to a member function getResultArray() on bool
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+ERROR - 2024-11-14 06:05:33 --> Unknown column 'foto.title' in 'field list'
+CRITICAL - 2024-11-14 06:05:33 --> Call to a member function getResultArray() on bool
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+ERROR - 2024-11-14 06:10:58 --> Unknown column 'title' in 'field list'
+CRITICAL - 2024-11-14 06:10:58 --> Call to a member function getResultArray() on bool
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+ERROR - 2024-11-14 06:12:36 --> Unknown column 'title' in 'field list'
+CRITICAL - 2024-11-14 06:12:36 --> Call to a member function getResultArray() on bool
+#0 C:\galeri\app\Controllers\Home.php(37): App\Models\M_burger->getLatestPhotos()
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+CRITICAL - 2024-11-14 06:35:07 --> Cannot redeclare App\Controllers\Home::photo()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-14 06:35:39 --> Invalid argument supplied for foreach()
+#0 C:\galeri\app\Views\persuratan.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\galeri\\app\\V...', 142, Array)
+#1 C:\galeri\system\View\View.php(210): include('C:\\galeri\\app\\V...')
+#2 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('persuratan', Array, true)
+#4 C:\galeri\app\Controllers\Home.php(361): view('persuratan', Array)
+#5 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->restore()
+#6 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#10 {main}
+CRITICAL - 2024-11-14 07:04:26 --> syntax error, unexpected ''aktif'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\galeri\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/album')
+#1 C:\galeri\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/album')
+#2 C:\galeri\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+CRITICAL - 2024-11-14 07:06:47 --> Invalid file: album_view.php
+#0 C:\galeri\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('album_view.php')
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('album_view', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(274): view('album_view', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-14 20:14:29 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-14 07:37:13 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-14 07:37:13 --> Query Error: SELECT `user`.`username`, `history_edit`.`activity`, `history_edit`.`description`, `history_edit`.`timestamp`
+FROM `history_edit`
+LEFT JOIN `user` ON `history_edit`.`user_id` = `user`.`id_user`
+ORDER BY `history_edit`.`timestamp` DESC
+ERROR - 2024-11-14 07:37:15 --> Table 'galeri.activity_logs' doesn't exist
+CRITICAL - 2024-11-14 07:37:15 --> Call to a member function getResultArray() on bool
+#0 C:\galeri\app\Controllers\Home.php(135): App\Models\M_burger->getActivityLogs()
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->activity_log()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}

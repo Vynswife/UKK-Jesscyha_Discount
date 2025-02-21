@@ -1,0 +1,20 @@
+CRITICAL - 2025-02-18 21:09:08 --> Call to undefined method App\Models\M_burger::getPassword
+#0 C:\calc\app\Controllers\Home.php(1588): CodeIgniter\Model->__call('getPassword', Array)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->aksi_changepass()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-02-18 21:10:31 --> Unknown column 'updated_by' in 'field list'
+ERROR - 2025-02-18 21:11:30 --> Unknown column 'updated_by' in 'field list'
+ERROR - 2025-02-18 23:05:27 --> Table 'kalkulator.notification' doesn't exist
+ERROR - 2025-02-18 23:05:27 --> Table 'kalkulator.notification' doesn't exist
+CRITICAL - 2025-02-18 23:05:27 --> Call to a member function getResultArray() on bool
+#0 C:\calc\app\Controllers\Home.php(44): App\Models\M_burger->getRecentNotifications()
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}

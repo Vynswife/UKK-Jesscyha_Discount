@@ -1,0 +1,43 @@
+ERROR - 2024-11-19 12:45:20 --> Column 'user_id' cannot be null
+ERROR - 2024-11-19 12:58:40 --> Table 'design.history_edit' doesn't exist
+ERROR - 2024-11-19 12:58:40 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-19 12:58:40 --> Column 'user_id' cannot be null
+ERROR - 2024-11-19 12:59:19 --> Column 'user_id' cannot be null
+ERROR - 2024-11-19 12:59:38 --> Column 'user_id' cannot be null
+ERROR - 2024-11-19 12:59:52 --> Table 'design.history_edit' doesn't exist
+ERROR - 2024-11-19 12:59:52 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-19 12:59:52 --> Column 'user_id' cannot be null
+ERROR - 2024-11-19 13:00:00 --> Column 'user_id' cannot be null
+ERROR - 2024-11-19 13:00:13 --> Table 'design.history_edit' doesn't exist
+ERROR - 2024-11-19 13:00:13 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-19 13:00:14 --> Column 'user_id' cannot be null
+CRITICAL - 2024-11-19 00:33:01 --> Invalid file: t_user.php
+#0 C:\allure\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('t_user.php')
+#1 C:\allure\system\Common.php(1089): CodeIgniter\View\View->render('t_user', Array, true)
+#2 C:\allure\app\Controllers\Home.php(1241): view('t_user', Array)
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_user()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+ERROR - 2024-11-19 00:46:37 --> Table 'design.history_edit' doesn't exist
+ERROR - 2024-11-19 00:46:37 --> Query Error: SELECT `user`.`username`, `history_edit`.`activity`, `history_edit`.`description`, `history_edit`.`timestamp`
+FROM `history_edit`
+LEFT JOIN `user` ON `history_edit`.`user_id` = `user`.`id_user`
+ORDER BY `history_edit`.`timestamp` DESC
+ERROR - 2024-11-19 19:28:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-11-19 19:28:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\allure\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\allure\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\allure\app\Models\M_burger.php(239): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\allure\app\Controllers\Home.php(81): App\Models\M_burger->getWhere('user', Array)
+#4 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#9 {main}

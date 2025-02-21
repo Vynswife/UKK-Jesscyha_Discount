@@ -1,0 +1,284 @@
+ERROR - 2024-11-16 00:01:17 --> Unknown column 'judul' in 'field list'
+ERROR - 2024-11-16 00:02:03 --> Unknown column 'judul' in 'field list'
+ERROR - 2024-11-16 00:02:37 --> Unknown column 'judul' in 'field list'
+ERROR - 2024-11-16 00:03:27 --> Unknown column 'judul' in 'field list'
+ERROR - 2024-11-16 00:22:58 --> Unknown column 'judul' in 'field list'
+ERROR - 2024-11-16 00:23:57 --> Unknown column 'judul' in 'field list'
+ERROR - 2024-11-16 00:30:12 --> Column 'id_foto' cannot be null
+CRITICAL - 2024-11-16 02:02:52 --> Invalid argument supplied for foreach()
+#0 C:\allure\app\Controllers\Home.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\allure\\app\\C...', 391, Array)
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->order('1')
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+CRITICAL - 2024-11-16 06:44:30 --> Call to a member function get() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-16 06:45:16 --> syntax error, unexpected ';', expecting ']'
+#0 C:\allure\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/t_order')
+#1 C:\allure\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/t_order')
+#2 C:\allure\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+CRITICAL - 2024-11-16 06:47:23 --> Call to a member function get() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-16 06:53:09 --> Call to a member function get() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-16 06:53:38 --> Call to a member function getName() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-16 06:54:46 --> Call to a member function getName() on null
+#0 C:\allure\app\Controllers\Home.php(380): App\Models\M_burger->upload(NULL)
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+CRITICAL - 2024-11-16 06:54:58 --> Call to a member function table() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+ERROR - 2024-11-16 07:03:47 --> Unknown column 'id_foto' in 'field list'
+ERROR - 2024-11-16 07:04:39 --> Unknown column 'id_foto' in 'field list'
+ERROR - 2024-11-16 07:05:37 --> Unknown column 'id_foto' in 'field list'
+CRITICAL - 2024-11-16 21:51:12 --> The original file is not a valid file.
+#0 C:\allure\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\allure\app\Models\M_burger.php(155): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\allure\\publi...', '')
+#2 C:\allure\app\Controllers\Home.php(570): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+CRITICAL - 2024-11-16 21:56:51 --> The original file is not a valid file.
+#0 C:\allure\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\allure\app\Models\M_burger.php(155): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\allure\\publi...', '')
+#2 C:\allure\app\Controllers\Home.php(570): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+CRITICAL - 2024-11-16 22:05:18 --> The original file is not a valid file.
+#0 C:\allure\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\allure\app\Models\M_burger.php(155): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\allure\\publi...', '')
+#2 C:\allure\app\Controllers\Home.php(570): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+ERROR - 2024-11-16 22:15:23 --> Table 'design.photos' doesn't exist
+CRITICAL - 2024-11-16 22:15:23 --> Call to a member function getFirstRow() on bool
+#0 C:\allure\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '5')
+#1 C:\allure\app\Controllers\Home.php(563): CodeIgniter\BaseModel->find('5')
+#2 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#3 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#7 {main}
+CRITICAL - 2024-11-16 22:30:41 --> The original file is not a valid file.
+#0 C:\allure\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\allure\app\Models\M_burger.php(155): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\allure\\publi...', '')
+#2 C:\allure\app\Controllers\Home.php(570): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+ERROR - 2024-11-16 22:34:07 --> Table 'design.photos' doesn't exist
+CRITICAL - 2024-11-16 22:34:07 --> Call to a member function getFirstRow() on bool
+#0 C:\allure\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\allure\app\Controllers\Home.php(564): CodeIgniter\BaseModel->find('4')
+#2 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#3 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#7 {main}
+ERROR - 2024-11-16 22:35:17 --> Table 'design.photos' doesn't exist
+CRITICAL - 2024-11-16 22:35:17 --> Call to a member function getFirstRow() on bool
+#0 C:\allure\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\allure\app\Controllers\Home.php(564): CodeIgniter\BaseModel->find('4')
+#2 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#3 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#7 {main}
+CRITICAL - 2024-11-16 22:36:09 --> The original file is not a valid file.
+#0 C:\allure\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\allure\app\Models\M_burger.php(155): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\allure\\publi...', '')
+#2 C:\allure\app\Controllers\Home.php(570): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+CRITICAL - 2024-11-16 22:43:38 --> The original file is not a valid file.
+#0 C:\allure\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\allure\app\Models\M_burger.php(155): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\allure\\publi...', '')
+#2 C:\allure\app\Controllers\Home.php(572): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+CRITICAL - 2024-11-16 22:45:09 --> The original file is not a valid file.
+#0 C:\allure\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\allure\app\Models\M_burger.php(155): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\allure\\publi...', '')
+#2 C:\allure\app\Controllers\Home.php(572): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+CRITICAL - 2024-11-16 22:53:05 --> Call to a member function getName() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-16 22:53:22 --> Call to a member function getName() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->e_foto()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+ERROR - 2024-11-16 23:47:52 --> Unknown column 'user.id_foto' in 'on clause'
+CRITICAL - 2024-11-16 23:47:52 --> Call to a member function getResult() on bool
+#0 C:\allure\app\Controllers\Home.php(484): App\Models\M_burger->tampil_join3('pembayaran', 'user', 'foto', 'pembayaran.id_o...', 'orders', 'orders.id_user ...', 'orders.id_foto ...')
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+ERROR - 2024-11-16 23:48:43 --> Unknown column 'user.id_foto' in 'on clause'
+CRITICAL - 2024-11-16 23:48:43 --> Call to a member function getResult() on bool
+#0 C:\allure\app\Controllers\Home.php(484): App\Models\M_burger->tampil_join3('pembayaran', 'user', 'foto', 'pembayaran.id_o...', 'orders', 'orders.id_user ...', 'orders.id_foto ...')
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+ERROR - 2024-11-16 23:48:52 --> Not unique table/alias: 'foto'
+CRITICAL - 2024-11-16 23:48:52 --> Call to a member function getResult() on bool
+#0 C:\allure\app\Controllers\Home.php(484): App\Models\M_burger->tampil_join4('pembayaran', 'user', 'foto', 'pembayaran.id_o...', 'orders', 'orders.id_user ...', 'orders.id_foto ...')
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+ERROR - 2024-11-16 23:49:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_foto` USING (`orders`)' at line 5
+CRITICAL - 2024-11-16 23:49:02 --> Call to a member function getResult() on bool
+#0 C:\allure\app\Controllers\Home.php(484): App\Models\M_burger->tampil_join4('pembayaran', 'user', 'foto', 'pembayaran.id_o...', 'orders', 'orders.id_user ...', 'orders.id_foto ...')
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+ERROR - 2024-11-16 23:49:50 --> Unknown column 'orders.id_order' in 'on clause'
+CRITICAL - 2024-11-16 23:49:50 --> Call to a member function getResult() on bool
+#0 C:\allure\app\Controllers\Home.php(484): App\Models\M_burger->tampil_join4('pembayaran', 'user', 'foto', 'orders', 'pembayaran.id_o...', 'orders.id_user ...', 'orders.id_foto ...')
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+ERROR - 2024-11-16 23:50:35 --> Unknown column 'orders.id_order' in 'on clause'
+CRITICAL - 2024-11-16 23:50:35 --> Call to a member function getResult() on bool
+#0 C:\allure\app\Controllers\Home.php(484): App\Models\M_burger->tampil_join4('pembayaran', 'user', 'foto', 'orders', 'pembayaran.id_o...', 'orders.id_user ...', 'orders.id_foto ...')
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+ERROR - 2024-11-16 23:52:49 --> Unknown column 'orders.id_order' in 'on clause'
+CRITICAL - 2024-11-16 23:52:49 --> Call to a member function getResult() on bool
+#0 C:\allure\app\Controllers\Home.php(484): App\Models\M_burger->tampil_join4('pembayaran', 'user', 'foto', 'orders', 'pembayaran.id_o...', 'orders.id_user ...', 'orders.id_foto ...')
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+ERROR - 2024-11-16 23:56:17 --> Unknown column 'orders.id_order' in 'on clause'
+CRITICAL - 2024-11-16 23:56:17 --> Call to a member function getResult() on bool
+#0 C:\allure\app\Controllers\Home.php(491): App\Models\M_burger->tampil_join4('pembayaran', 'user', 'foto', 'orders', 'pembayaran.id_o...', 'orders.id_user ...', 'orders.id_foto ...')
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}
+CRITICAL - 2024-11-16 23:58:21 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\allure\app\Models\M_burger.php on line 155
+#0 C:\allure\app\Models\M_burger.php(155): CodeIgniter\Database\BaseBuilder->join('user', NULL, 'left')
+#1 C:\allure\app\Controllers\Home.php(491): App\Models\M_burger->tampil_join4('pembayaran', 'user', 'foto', 'orders', 'pembayaran.id_o...', 'orders.id_user ...', 'orders.id_foto ...')
+#2 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#3 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#7 {main}
+CRITICAL - 2024-11-16 23:59:09 --> syntax error, unexpected '"left"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\allure\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\allure\\app\\M...')
+#1 C:\allure\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_bu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_bu...')
+#3 C:\allure\app\Controllers\Home.php(17): spl_autoload_call('App\\Models\\M_bu...')
+#4 C:\allure\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\allure\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#9 {main}
+ERROR - 2024-11-16 23:59:25 --> Unknown column 'orders.id_order' in 'on clause'
+CRITICAL - 2024-11-16 23:59:25 --> Call to a member function getResult() on bool
+#0 C:\allure\app\Controllers\Home.php(491): App\Models\M_burger->tampil_join4('pembayaran', 'user', 'foto', 'orders', 'pembayaran.id_o...', 'orders.id_user ...', 'orders.id_foto ...')
+#1 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->orderadmin()
+#2 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#6 {main}

@@ -1,0 +1,57 @@
+ERROR - 2024-11-07 03:54:43 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-11-07 03:54:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\office\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\office\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\office\app\Models\M_burger.php(30): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\office\app\Controllers\Home.php(240): App\Models\M_burger->tampil('surat_m')
+#4 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->surat_m()
+#5 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#9 {main}
+CRITICAL - 2024-11-07 05:12:58 --> Cannot use object of type stdClass as array
+#0 C:\office\system\View\View.php(210): include()
+#1 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('persuratan', Array, true)
+#3 C:\office\app\Controllers\Home.php(251): view('persuratan', Array)
+#4 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->surat_m()
+#5 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#9 {main}
+CRITICAL - 2024-11-07 05:13:02 --> Cannot use object of type stdClass as array
+#0 C:\office\system\View\View.php(210): include()
+#1 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('persuratan', Array, true)
+#3 C:\office\app\Controllers\Home.php(251): view('persuratan', Array)
+#4 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->surat_m()
+#5 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#9 {main}
+CRITICAL - 2024-11-07 05:16:18 --> syntax error, unexpected '}'
+#0 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('persuratan', Array, true)
+#2 C:\office\app\Controllers\Home.php(251): view('persuratan', Array)
+#3 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->surat_m()
+#4 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#8 {main}
+CRITICAL - 2024-11-07 05:16:41 --> syntax error, unexpected 'endif' (T_ENDIF)
+#0 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('persuratan', Array, true)
+#2 C:\office\app\Controllers\Home.php(251): view('persuratan', Array)
+#3 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->surat_m()
+#4 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#8 {main}

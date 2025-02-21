@@ -1,0 +1,397 @@
+ERROR - 2025-02-19 12:02:57 --> Column 'user_id' cannot be null
+ERROR - 2025-02-19 12:04:25 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-02-19 12:04:25 --> Failed to insert history_edit data: Array
+ERROR - 2025-02-19 12:04:26 --> Column 'user_id' cannot be null
+ERROR - 2025-02-19 12:05:02 --> Column 'user_id' cannot be null
+ERROR - 2025-02-19 12:05:25 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-02-19 12:05:25 --> Failed to insert history_edit data: Array
+ERROR - 2025-02-19 12:05:25 --> Column 'user_id' cannot be null
+CRITICAL - 2025-02-19 00:23:55 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:24:13 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:24:15 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:25:18 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:26:15 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:29:57 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:31:51 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:33:11 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:33:12 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:33:12 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:35:19 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:35:20 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:35:31 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:35:37 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:35:44 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+ERROR - 2025-02-19 00:38:24 --> Unknown column 'updated_by' in 'field list'
+ERROR - 2025-02-19 00:40:05 --> Unknown column 'updated_by' in 'field list'
+ERROR - 2025-02-19 00:40:13 --> Unknown column 'updated_by' in 'field list'
+CRITICAL - 2025-02-19 00:41:47 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:52:01 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:57:30 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:58:46 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 00:59:01 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 01:00:04 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 01:00:26 --> Too few arguments to function App\Controllers\Home::h_user(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->h_user()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 01:02:01 --> Too few arguments to function App\Controllers\Home::h_user(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->h_user()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 01:02:27 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 01:02:31 --> Cannot use object of type stdClass as array
+#0 C:\calc\system\View\View.php(210): include()
+#1 C:\calc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\calc\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#3 C:\calc\app\Controllers\Home.php(1047): view('user', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+CRITICAL - 2025-02-19 01:03:02 --> Call to undefined method App\Models\M_burger::tampil_aktif
+#0 C:\calc\app\Controllers\Home.php(1036): CodeIgniter\Model->__call('tampil_aktif', Array)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-02-19 01:03:20 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2025-02-19 01:03:20 --> Call to a member function getResultArray() on bool
+#0 C:\calc\app\Controllers\Home.php(1036): App\Models\M_burger->tampil_aktif('user')
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-02-19 01:06:30 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-02-19 01:07:52 --> Call to a member function table() on null
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+ERROR - 2025-02-19 01:11:55 --> Table 'kalkulator.notification' doesn't exist
+CRITICAL - 2025-02-19 01:11:55 --> Call to a member function getResultArray() on bool
+#0 C:\calc\app\Controllers\Home.php(43): App\Models\M_burger->getRecentNotifications()
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->beranda()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-02-19 14:12:22 --> Column 'user_id' cannot be null
+ERROR - 2025-02-19 14:13:46 --> Column 'user_id' cannot be null
+CRITICAL - 2025-02-19 04:28:58 --> Cannot use object of type stdClass as array
+#0 C:\calc\system\View\View.php(210): include()
+#1 C:\calc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\calc\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#3 C:\calc\app\Controllers\Home.php(356): view('posts', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-19 17:29:06 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 17:29:11 --> Can't write; duplicate key in table 'activity_logs'
+CRITICAL - 2025-02-19 04:29:14 --> Cannot use object of type stdClass as array
+#0 C:\calc\system\View\View.php(210): include()
+#1 C:\calc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\calc\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#3 C:\calc\app\Controllers\Home.php(356): view('posts', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+CRITICAL - 2025-02-19 04:32:52 --> Cannot use object of type stdClass as array
+#0 C:\calc\system\View\View.php(210): include()
+#1 C:\calc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\calc\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#3 C:\calc\app\Controllers\Home.php(356): view('posts', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-19 17:32:56 --> Column 'user_id' cannot be null
+CRITICAL - 2025-02-19 04:33:17 --> Cannot use object of type stdClass as array
+#0 C:\calc\system\View\View.php(210): include()
+#1 C:\calc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\calc\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#3 C:\calc\app\Controllers\Home.php(356): view('posts', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-19 17:48:43 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 17:48:45 --> Can't write; duplicate key in table 'activity_logs'
+CRITICAL - 2025-02-19 04:50:50 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+ERROR - 2025-02-19 17:55:06 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 17:55:07 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 17:55:12 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 04:55:19 --> Table 'kalkulator./home/posts/1' doesn't exist
+CRITICAL - 2025-02-19 04:55:20 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+ERROR - 2025-02-19 17:55:31 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 17:55:32 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 04:55:37 --> Table 'kalkulator./home/posts/1' doesn't exist
+CRITICAL - 2025-02-19 04:55:37 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+ERROR - 2025-02-19 17:57:33 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 04:57:41 --> Table 'kalkulator./home/posts/1' doesn't exist
+ERROR - 2025-02-19 17:57:41 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:00:53 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:00:59 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:01:47 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:02:52 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 05:03:03 --> Table 'kalkulator./home/posts/1' doesn't exist
+ERROR - 2025-02-19 18:03:03 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:04:25 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:04:57 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:05:25 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:05:49 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:07:39 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 05:07:55 --> Table 'kalkulator./home/posts/1' doesn't exist
+ERROR - 2025-02-19 18:07:56 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 05:07:56 --> Table 'kalkulator./home/posts/1' doesn't exist
+ERROR - 2025-02-19 05:08:06 --> Table 'kalkulator./home/posts/1' doesn't exist
+ERROR - 2025-02-19 18:08:07 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:08:30 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:09:09 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 05:09:16 --> Table 'kalkulator./home/posts/1' doesn't exist
+CRITICAL - 2025-02-19 05:09:16 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+ERROR - 2025-02-19 18:09:53 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:09:54 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:10:15 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:10:19 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:12:15 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:12:41 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:18:26 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:21:20 --> Can't write; duplicate key in table 'activity_logs'
+CRITICAL - 2025-02-19 05:24:32 --> Call to a member function query() on null
+#0 C:\calc\system\View\View.php(210): include()
+#1 C:\calc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\calc\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#3 C:\calc\app\Controllers\Home.php(348): view('posts', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-19 18:25:15 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:26:44 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:27:01 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:27:16 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:27:31 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:27:45 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:27:55 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:28:06 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:28:26 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:28:36 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:28:43 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 18:29:54 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 19:04:20 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 20:00:05 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 20:00:08 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 20:00:33 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 20:00:36 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 20:00:46 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 20:01:38 --> Column 'user_id' cannot be null
+ERROR - 2025-02-19 20:32:31 --> Column 'user_id' cannot be null
+ERROR - 2025-02-19 20:36:46 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 20:36:52 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 20:36:57 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:19:08 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:24:19 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:24:24 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:26:46 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:29:40 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:29:50 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:30:16 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:30:29 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:31:34 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:37:02 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:37:05 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:39:01 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:39:03 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:39:05 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:39:07 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:40:15 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-19 22:40:32 --> Can't write; duplicate key in table 'activity_logs'

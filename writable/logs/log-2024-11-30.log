@@ -1,0 +1,61 @@
+CRITICAL - 2024-11-30 00:33:25 --> syntax error, unexpected '<'
+#0 C:\sharin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\sharin\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\sharin\app\Controllers\Home.php(1360): view('profile', Array)
+#3 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->profile('7')
+#4 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#8 {main}
+CRITICAL - 2024-11-30 00:39:45 --> There is no data to update.
+#0 C:\sharin\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\sharin\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\sharin\app\Controllers\Home.php(1407): CodeIgniter\Model->update('7', Array)
+#3 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_profile()
+#4 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#8 {main}
+ERROR - 2024-11-30 14:05:19 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 01:10:35 --> Column 'nama_mapel' cannot be null
+CRITICAL - 2024-11-30 01:19:19 --> Cannot redeclare App\Controllers\Home::t_mapel()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-11-30 01:20:02 --> Duplicate entry '' for key 'slug'
+ERROR - 2024-11-30 21:21:51 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 21:24:00 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 21:29:04 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 21:33:57 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2024-11-30 21:38:02 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\sharin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/post/1')
+#1 C:\sharin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/post/1')
+#2 C:\sharin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+CRITICAL - 2024-11-30 21:38:30 --> Call to undefined method App\Controllers\Home::upload()
+#0 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->t_post()
+#1 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#5 {main}
+ERROR - 2024-11-30 21:44:09 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 21:44:30 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2024-11-30 21:51:51 --> Call to undefined method App\Controllers\Home::upload()
+#0 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->t_post()
+#1 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#5 {main}
+ERROR - 2024-11-30 21:52:09 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 21:52:27 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 21:54:06 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 21:58:08 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 21:58:50 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-11-30 21:58:50 --> Failed to insert post data: {"judul":"1","isi":"1","id_mapel":"2","id_user":"1","foto":"march.png"}
+ERROR - 2024-11-30 22:00:59 --> File upload failed or not moved.

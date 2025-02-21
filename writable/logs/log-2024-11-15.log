@@ -1,0 +1,59 @@
+CRITICAL - 2024-11-15 05:12:29 --> syntax error, unexpected end of file
+#0 C:\allure\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\allure\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\allure\app\Controllers\Home.php(282): view('rak_surat', Array)
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+CRITICAL - 2024-11-15 05:16:15 --> syntax error, unexpected end of file
+#0 C:\allure\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\allure\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\allure\app\Controllers\Home.php(282): view('rak_surat', Array)
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+CRITICAL - 2024-11-15 06:40:55 --> Call to a member function post() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-15 06:41:15 --> Call to a member function post() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-15 06:41:56 --> Call to a member function insert() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-15 06:42:36 --> Call to a member function tambah() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+ERROR - 2024-11-15 06:42:49 --> Column 'id_user' cannot be null
+CRITICAL - 2024-11-15 06:42:49 --> Call to a member function set_flashdata() on null
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+ERROR - 2024-11-15 06:42:58 --> Column 'id_user' cannot be null
+ERROR - 2024-11-15 06:43:11 --> Column 'id_user' cannot be null
+ERROR - 2024-11-15 23:55:55 --> Unknown column 'judul' in 'field list'

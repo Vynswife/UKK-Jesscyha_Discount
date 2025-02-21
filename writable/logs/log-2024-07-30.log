@@ -1,0 +1,158 @@
+CRITICAL - 2024-07-30 00:22:35 --> Too few arguments to function App\Models\M_burger::join(), 3 passed in C:\burger\app\Controllers\Home.php on line 333 and exactly 4 expected
+#0 C:\burger\app\Controllers\Home.php(333): App\Models\M_burger->join('keranjang', 'makanan', 'keranjang.id_ma...')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-30 00:22:54 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('keranjang', Array, true)
+#2 C:\burger\app\Controllers\Home.php(336): view('keranjang', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-30 00:39:44 --> Cannot redeclare App\Controllers\Home::keranjang()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 00:39:54 --> syntax error, unexpected token "public"
+#0 C:\burger\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\burger\\app\\M...')
+#1 C:\burger\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_bu...')
+#2 C:\burger\app\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_bu...')
+#3 C:\burger\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 C:\burger\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-30 00:40:23 --> Cannot redeclare App\Models\M_burger::getWhere()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 00:40:54 --> Cannot redeclare App\Models\M_burger::getWhere()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 00:41:47 --> Undefined variable $id_produk
+#0 C:\burger\app\Controllers\Home.php(377): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\C...', 377)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_t_keranjang()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-30 00:42:26 --> Undefined variable $id_keranjang
+#0 C:\burger\app\Controllers\Home.php(377): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\C...', 377)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_t_keranjang()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-30 00:43:38 --> Attempt to read property "harga" on null
+#0 C:\burger\app\Controllers\Home.php(380): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\burger\\app\\C...', 380)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_t_keranjang()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-30 01:01:47 --> You must set the database table to be used with your query.
+#0 C:\burger\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\burger\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\burger\app\Controllers\Home.php(404): CodeIgniter\Model->__call('getWherecon', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_pesan()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-30 01:04:59 --> Attempt to read property "id_makanan" on string
+#0 C:\burger\app\Controllers\Home.php(413): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\burger\\app\\C...', 413)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_pesan()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 1
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 4
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 3
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 10
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 63000
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:06:20 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 3
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 4
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 3
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 10
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 63000
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:09:45 --> Invalid item found in keranjang: 
+CRITICAL - 2024-07-30 01:10:34 --> Undefined variable $elly
+#0 C:\burger\app\Views\keranjang.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 86)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('keranjang', Array, true)
+#4 C:\burger\app\Controllers\Home.php(339): view('keranjang', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-30 01:11:51 --> Undefined property: stdClass::$nama_produk
+#0 C:\burger\app\Views\keranjang.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\burger\\app\\V...', 76)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('keranjang', Array, true)
+#4 C:\burger\app\Controllers\Home.php(339): view('keranjang', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 4
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 4
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 2
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 10
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 42000
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:19:57 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 5
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 4
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 2
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 10
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 42000
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:21:56 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 7
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 4
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 3
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 10
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 63000
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 
+ERROR - 2024-07-30 01:24:28 --> Invalid item found in keranjang: 

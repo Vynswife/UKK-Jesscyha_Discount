@@ -1,0 +1,8 @@
+ERROR - 2024-12-01 09:34:49 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-01 11:16:04 --> Column 'user_id' cannot be null
+ERROR - 2024-12-01 11:16:23 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2024-12-01 11:16:23 --> Failed to insert history_edit data: Array
+ERROR - 2024-12-01 11:16:23 --> Column 'user_id' cannot be null
+ERROR - 2024-12-01 11:17:00 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-01 11:18:39 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-01 11:20:03 --> Duplicate entry '0' for key 'PRIMARY'

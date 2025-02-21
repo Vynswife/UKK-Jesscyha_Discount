@@ -1,0 +1,444 @@
+ERROR - 2024-11-13 09:00:18 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-13 09:00:27 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-13 10:14:36 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-13 10:14:41 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-13 14:30:21 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-13 01:30:22 --> Table 'galeri.surat_m' doesn't exist
+ERROR - 2024-11-13 01:30:22 --> Table 'galeri.surat_m' doesn't exist
+ERROR - 2024-11-13 01:30:28 --> Table 'galeri.surat_m' doesn't exist
+ERROR - 2024-11-13 01:30:28 --> Table 'galeri.surat_m' doesn't exist
+ERROR - 2024-11-13 14:46:51 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 14:46:51 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 14:47:50 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 14:47:50 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 14:55:27 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 14:55:27 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 14:56:18 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 14:56:18 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 14:56:54 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 14:56:54 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 14:57:58 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 14:57:58 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 16:45:03 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 16:45:03 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 17:17:01 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 17:17:01 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 17:53:39 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 17:53:39 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 17:54:04 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 17:54:04 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 18:05:22 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 18:05:22 --> Failed to insert history_edit data: Array
+CRITICAL - 2024-11-13 05:32:06 --> Call to a member function getName() on null
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_foto()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+ERROR - 2024-11-13 18:32:57 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 18:32:57 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 18:33:56 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 18:33:56 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 05:34:26 --> Table 'galeri.surat_m' doesn't exist
+CRITICAL - 2024-11-13 05:34:26 --> Call to a member function getResult() on bool
+#0 C:\galeri\app\Controllers\Home.php(251): App\Models\M_burger->tampil_join('surat_m', 'folder', 'surat_m.id_fold...', 'left', Array)
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+ERROR - 2024-11-13 05:44:32 --> Table 'galeri.surat_m' doesn't exist
+CRITICAL - 2024-11-13 05:44:32 --> Call to a member function getResult() on bool
+#0 C:\galeri\app\Controllers\Home.php(251): App\Models\M_burger->tampil_join('surat_m', 'folder', 'surat_m.id_fold...', 'left', Array)
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+CRITICAL - 2024-11-13 05:45:56 --> Call to a member function getName() on null
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+CRITICAL - 2024-11-13 05:49:52 --> Call to a member function getName() on null
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+CRITICAL - 2024-11-13 05:50:18 --> Call to a member function getName() on null
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+CRITICAL - 2024-11-13 05:51:13 --> Call to a member function getName() on null
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+CRITICAL - 2024-11-13 05:51:57 --> Call to a member function getName() on null
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+CRITICAL - 2024-11-13 05:53:39 --> Call to a member function isValid() on null
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+CRITICAL - 2024-11-13 05:55:06 --> The original file is not a valid file.
+#0 C:\galeri\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\galeri\app\Models\M_burger.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\galeri\\publi...', '')
+#2 C:\galeri\app\Controllers\Home.php(420): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+CRITICAL - 2024-11-13 05:55:20 --> The original file is not a valid file.
+#0 C:\galeri\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\galeri\app\Models\M_burger.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\galeri\\publi...', '')
+#2 C:\galeri\app\Controllers\Home.php(420): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+CRITICAL - 2024-11-13 05:56:07 --> The original file is not a valid file.
+#0 C:\galeri\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\galeri\app\Models\M_burger.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\galeri\\publi...', '')
+#2 C:\galeri\app\Controllers\Home.php(420): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+CRITICAL - 2024-11-13 05:56:19 --> The original file is not a valid file.
+#0 C:\galeri\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\galeri\app\Models\M_burger.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\galeri\\publi...', '')
+#2 C:\galeri\app\Controllers\Home.php(420): App\Models\M_burger->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+CRITICAL - 2024-11-13 05:56:34 --> Call to a member function getName() on null
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+CRITICAL - 2024-11-13 05:59:19 --> Call to a member function getName() on null
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->t_album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+ERROR - 2024-11-13 19:18:15 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 19:18:15 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 19:18:58 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 19:18:58 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 06:19:06 --> Table 'galeri.surat_m' doesn't exist
+CRITICAL - 2024-11-13 06:19:06 --> Call to a member function getResult() on bool
+#0 C:\galeri\app\Controllers\Home.php(251): App\Models\M_burger->tampil_join('surat_m', 'folder', 'surat_m.id_fold...', 'left', Array)
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+CRITICAL - 2024-11-13 06:44:05 --> Call to undefined function character_limiter()
+#0 C:\galeri\system\View\View.php(210): include()
+#1 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#3 C:\galeri\app\Controllers\Home.php(254): view('rak_surat', Array)
+#4 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#5 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#9 {main}
+CRITICAL - 2024-11-13 06:46:06 --> Cannot redeclare App\Controllers\Home::__construct()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-13 06:46:25 --> Cannot call constructor
+#0 C:\galeri\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 C:\galeri\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+ERROR - 2024-11-13 07:53:59 --> Unknown column 'album.status' in 'where clause'
+CRITICAL - 2024-11-13 07:53:59 --> Call to a member function getResult() on bool
+#0 C:\galeri\app\Controllers\Home.php(241): App\Models\M_burger->tampil_join1('album', 'foto', 'album.id_album ...')
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+ERROR - 2024-11-13 07:55:13 --> Unknown column 'album.status' in 'where clause'
+CRITICAL - 2024-11-13 07:55:13 --> Call to a member function getResult() on bool
+#0 C:\galeri\app\Controllers\Home.php(241): App\Models\M_burger->tampil_join1('album', 'foto', 'foto.id_album =...')
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+ERROR - 2024-11-13 07:55:54 --> Unknown column 'album.status' in 'where clause'
+CRITICAL - 2024-11-13 07:55:54 --> Call to a member function getResult() on bool
+#0 C:\galeri\app\Controllers\Home.php(241): App\Models\M_burger->tampil_join1('album', 'foto', 'foto.id_album =...')
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+ERROR - 2024-11-13 07:55:54 --> Unknown column 'album.status' in 'where clause'
+CRITICAL - 2024-11-13 07:55:54 --> Call to a member function getResult() on bool
+#0 C:\galeri\app\Controllers\Home.php(241): App\Models\M_burger->tampil_join1('album', 'foto', 'foto.id_album =...')
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+ERROR - 2024-11-13 07:55:54 --> Unknown column 'album.status' in 'where clause'
+CRITICAL - 2024-11-13 07:55:54 --> Call to a member function getResult() on bool
+#0 C:\galeri\app\Controllers\Home.php(241): App\Models\M_burger->tampil_join1('album', 'foto', 'foto.id_album =...')
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+CRITICAL - 2024-11-13 07:59:21 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(250): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+CRITICAL - 2024-11-13 08:00:46 --> Invalid argument supplied for foreach()
+#0 C:\galeri\app\Views\rak_surat.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\galeri\\app\\V...', 62, Array)
+#1 C:\galeri\system\View\View.php(210): include('C:\\galeri\\app\\V...')
+#2 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#4 C:\galeri\app\Controllers\Home.php(250): view('rak_surat', Array)
+#5 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#6 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#10 {main}
+CRITICAL - 2024-11-13 08:00:54 --> Invalid argument supplied for foreach()
+#0 C:\galeri\app\Views\rak_surat.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\galeri\\app\\V...', 62, Array)
+#1 C:\galeri\system\View\View.php(210): include('C:\\galeri\\app\\V...')
+#2 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#4 C:\galeri\app\Controllers\Home.php(250): view('rak_surat', Array)
+#5 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#6 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#10 {main}
+CRITICAL - 2024-11-13 08:02:12 --> Invalid argument supplied for foreach()
+#0 C:\galeri\app\Views\rak_surat.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\galeri\\app\\V...', 62, Array)
+#1 C:\galeri\system\View\View.php(210): include('C:\\galeri\\app\\V...')
+#2 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#4 C:\galeri\app\Controllers\Home.php(250): view('rak_surat', Array)
+#5 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#6 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#10 {main}
+CRITICAL - 2024-11-13 08:03:34 --> Invalid argument supplied for foreach()
+#0 C:\galeri\app\Views\rak_surat.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\galeri\\app\\V...', 62, Array)
+#1 C:\galeri\system\View\View.php(210): include('C:\\galeri\\app\\V...')
+#2 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#4 C:\galeri\app\Controllers\Home.php(251): view('rak_surat', Array)
+#5 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#6 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#10 {main}
+ERROR - 2024-11-13 21:04:55 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 21:04:55 --> Failed to insert history_edit data: Array
+CRITICAL - 2024-11-13 08:08:06 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(251): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+CRITICAL - 2024-11-13 08:08:46 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(251): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+CRITICAL - 2024-11-13 08:27:50 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(258): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+CRITICAL - 2024-11-13 08:29:19 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(258): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-13 08:30:56 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:33:07 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:34:20 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:35:37 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:35:42 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:36:07 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:37:13 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:37:22 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:40:13 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:41:43 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-13 08:44:50 --> syntax error, unexpected end of file
+#0 C:\galeri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\galeri\system\Common.php(1089): CodeIgniter\View\View->render('rak_surat', Array, true)
+#2 C:\galeri\app\Controllers\Home.php(258): view('rak_surat', Array)
+#3 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#4 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#8 {main}
+ERROR - 2024-11-13 08:46:30 --> Table 'galeri.surat_m' doesn't exist
+ERROR - 2024-11-13 08:52:35 --> Table 'galeri.comments' doesn't exist
+CRITICAL - 2024-11-13 08:54:21 --> Call to undefined method App\Models\M_burger::tampil_join2
+#0 C:\galeri\app\Controllers\Home.php(245): CodeIgniter\Model->__call('tampil_join2', Array)
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+ERROR - 2024-11-13 08:55:09 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:55:09 --> Table 'galeri.comments' doesn't exist
+CRITICAL - 2024-11-13 08:55:09 --> Call to a member function getResult() on bool
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+ERROR - 2024-11-13 08:55:33 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:55:33 --> Table 'galeri.comments' doesn't exist
+CRITICAL - 2024-11-13 08:55:33 --> Call to a member function getResult() on bool
+#0 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->album()
+#1 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#5 {main}
+ERROR - 2024-11-13 08:55:52 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:55:52 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:56:20 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:56:20 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:56:42 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:56:42 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:58:01 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:58:01 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:58:09 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:58:09 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:59:25 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:59:25 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:59:38 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 08:59:38 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:00:20 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:00:20 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 22:00:26 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-13 09:01:23 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:01:24 --> Table 'galeri.like' doesn't exist
+CRITICAL - 2024-11-13 09:08:04 --> Argument 2 passed to view() must be of the type array, null given, called in C:\galeri\app\Controllers\Home.php on line 373
+#0 C:\galeri\app\Controllers\Home.php(373): view('register', NULL)
+#1 C:\galeri\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\galeri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\galeri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\galeri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\galeri\system\Commands\Server\rewrite.php(43): require_once('C:\\galeri\\publi...')
+#6 {main}
+ERROR - 2024-11-13 09:16:06 --> Unknown column 'jenis_kelamin' in 'field list'
+ERROR - 2024-11-13 22:18:21 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-13 09:18:25 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:18:25 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 22:19:28 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-13 09:19:37 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:19:37 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 22:21:12 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 22:21:12 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 22:22:20 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 22:22:20 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 22:22:39 --> Table 'galeri.history_edit' doesn't exist
+ERROR - 2024-11-13 22:22:39 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-13 09:22:44 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:22:44 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:22:44 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:22:44 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:23:12 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:23:12 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:23:12 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:23:12 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:23:37 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:23:37 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:23:37 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:23:37 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 22:24:41 --> Table 'galeri.activity_logs' doesn't exist
+ERROR - 2024-11-13 09:24:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:24:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:24:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:24:48 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:25:29 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:25:29 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:25:29 --> Table 'galeri.like' doesn't exist
+ERROR - 2024-11-13 09:25:29 --> Table 'galeri.like' doesn't exist

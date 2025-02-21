@@ -1,0 +1,77 @@
+ERROR - 2024-12-02 11:07:26 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 11:11:13 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 17:44:37 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2024-12-02 04:48:53 --> Invalid argument supplied for foreach()
+#0 C:\sharin\app\Views\post.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\sharin\\app\\V...', 122, Array)
+#1 C:\sharin\system\View\View.php(210): include('C:\\sharin\\app\\V...')
+#2 C:\sharin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\sharin\system\Common.php(1089): CodeIgniter\View\View->render('post', Array, true)
+#4 C:\sharin\app\Controllers\Home.php(494): view('post', Array)
+#5 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#6 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#10 {main}
+ERROR - 2024-12-02 04:51:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-12-02 04:51:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\sharin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\sharin\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\sharin\app\Models\M_burger.php(270): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\sharin\app\Controllers\Home.php(107): App\Models\M_burger->getWhere('user', Array)
+#4 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#9 {main}
+ERROR - 2024-12-02 17:51:14 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 17:51:22 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:51:49 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2024-12-02 17:51:49 --> Failed to insert history_edit data: Array
+ERROR - 2024-12-02 17:51:49 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:52:02 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2024-12-02 17:52:02 --> Failed to insert history_edit data: Array
+ERROR - 2024-12-02 17:52:02 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:52:31 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2024-12-02 17:52:31 --> Failed to insert history_edit data: Array
+ERROR - 2024-12-02 17:52:32 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:52:42 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2024-12-02 17:52:42 --> Failed to insert history_edit data: Array
+ERROR - 2024-12-02 17:52:42 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:52:48 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:53:24 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:53:59 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:54:15 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:54:37 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:54:47 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:55:28 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:55:36 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:55:49 --> Column 'user_id' cannot be null
+ERROR - 2024-12-02 17:56:05 --> Column 'user_id' cannot be null
+CRITICAL - 2024-12-02 05:25:10 --> Invalid argument supplied for foreach()
+#0 C:\sharin\app\Views\posts.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\sharin\\app\\V...', 127, Array)
+#1 C:\sharin\system\View\View.php(210): include('C:\\sharin\\app\\V...')
+#2 C:\sharin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\sharin\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#4 C:\sharin\app\Controllers\Home.php(443): view('posts', Array)
+#5 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#6 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#10 {main}
+ERROR - 2024-12-02 18:33:17 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 18:34:43 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 18:35:07 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 18:35:40 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 18:42:37 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2024-12-02 18:42:37 --> Failed to insert history_edit data: Array
+ERROR - 2024-12-02 18:56:57 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 18:59:27 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 19:00:26 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 19:02:00 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-02 19:04:13 --> Duplicate entry '0' for key 'PRIMARY'

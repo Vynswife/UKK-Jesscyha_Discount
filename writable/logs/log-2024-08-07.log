@@ -1,0 +1,616 @@
+ERROR - 2024-08-07 02:06:52 --> Column 'catatan' cannot be null
+CRITICAL - 2024-08-07 02:06:57 --> Invalid argument supplied for foreach()
+#0 C:\burger\app\Views\user.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\burger\\app\\V...', 49, Array)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\burger\app\Controllers\Home.php(596): view('user', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-08-07 02:07:31 --> Invalid argument supplied for foreach()
+#0 C:\burger\app\Views\user.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\burger\\app\\V...', 49, Array)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\burger\app\Controllers\Home.php(596): view('user', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+ERROR - 2024-08-07 05:36:19 --> Column 'catatan' cannot be null
+CRITICAL - 2024-08-07 05:43:12 --> Class 'Dompdf\Dompdf' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->printnota('202408052208351...')
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 05:53:00 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('history', Array, true)
+#2 C:\burger\app\Controllers\Home.php(785): view('history', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->history()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+ERROR - 2024-08-07 06:31:05 --> Column 'catatan' cannot be null
+CRITICAL - 2024-08-07 06:46:35 --> Too few arguments to function App\Controllers\Home::e_pesanan(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->e_pesanan()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+ERROR - 2024-08-07 07:01:14 --> Column 'catatan' cannot be null
+ERROR - 2024-08-07 07:09:32 --> Column 'catatan' cannot be null
+CRITICAL - 2024-08-07 07:23:50 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:25:02 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:26:06 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:26:29 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:26:31 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:27:07 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:27:21 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:27:29 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:28:09 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:35:32 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:37:24 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:38:04 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:41:30 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:42:12 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:43:58 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:45:47 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/profile')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/profile')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 07:46:05 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:48:35 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 07:48:55 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+ERROR - 2024-08-07 07:50:50 --> Column 'catatan' cannot be null
+ERROR - 2024-08-07 07:53:14 --> Column 'catatan' cannot be null
+ERROR - 2024-08-07 07:57:04 --> Column 'catatan' cannot be null
+ERROR - 2024-08-07 08:24:51 --> Column 'catatan' cannot be null
+ERROR - 2024-08-07 08:43:29 --> Column 'catatan' cannot be null
+ERROR - 2024-08-07 08:48:08 --> Column 'catatan' cannot be null
+ERROR - 2024-08-07 09:07:34 --> Column 'catatan' cannot be null
+ERROR - 2024-08-07 09:11:46 --> Column 'catatan' cannot be null
+CRITICAL - 2024-08-07 09:29:21 --> Call to undefined method App\Models\M_burger::getKeranjang
+#0 C:\burger\app\Controllers\Home.php(361): CodeIgniter\Model->__call('getKeranjang', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->keranjang()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 10:00:54 --> Declaration of App\Models\M_burger::insert($data) should be compatible with CodeIgniter\Model::insert($data = NULL, bool $returnID = true)
+#0 C:\burger\app\Models\M_burger.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\burger\\app\\M...', 326, Array)
+#1 C:\burger\system\Autoloader\Autoloader.php(264): include_once('C:\\burger\\app\\M...')
+#2 C:\burger\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\burger\\app\\M...')
+#3 C:\burger\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_bu...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_bu...')
+#5 C:\burger\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_bu...')
+#6 C:\burger\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#7 C:\burger\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#8 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#11 {main}
+CRITICAL - 2024-08-07 10:01:55 --> Declaration of App\Models\M_burger::insert($data) should be compatible with CodeIgniter\Model::insert($data = NULL, bool $returnID = true)
+#0 C:\burger\app\Models\M_burger.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\burger\\app\\M...', 326, Array)
+#1 C:\burger\system\Autoloader\Autoloader.php(264): include_once('C:\\burger\\app\\M...')
+#2 C:\burger\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\burger\\app\\M...')
+#3 C:\burger\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_bu...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_bu...')
+#5 C:\burger\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_bu...')
+#6 C:\burger\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#7 C:\burger\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#8 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#11 {main}
+CRITICAL - 2024-08-07 10:02:24 --> Call to a member function model() on null
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_t_keranjang()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 10:03:50 --> Cannot redeclare App\Controllers\Home::__construct()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-08-07 10:03:59 --> Call to a member function insert() on null
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_t_keranjang()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 10:24:06 --> Cannot redeclare App\Models\M_burger::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-08-07 11:19:55 --> syntax error, unexpected '$', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/keranjang')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/keranjang')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 11:36:01 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 11:38:21 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 11:39:09 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 11:44:27 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 11:44:35 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 11:52:19 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 11:55:15 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 11:55:16 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 11:55:22 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 19:28:48 --> Argument 2 passed to view() must be of the type array, null given, called in C:\burger\app\Controllers\Home.php on line 42
+#0 C:\burger\app\Controllers\Home.php(42): view('register', NULL)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 19:31:43 --> Argument 2 passed to view() must be of the type array, null given, called in C:\burger\app\Controllers\Home.php on line 42
+#0 C:\burger\app\Controllers\Home.php(42): view('register', NULL)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 19:34:15 --> Argument 2 passed to view() must be of the type array, null given, called in C:\burger\app\Controllers\Home.php on line 42
+#0 C:\burger\app\Controllers\Home.php(42): view('register', NULL)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 19:34:46 --> Argument 2 passed to view() must be of the type array, null given, called in C:\burger\app\Controllers\Home.php on line 42
+#0 C:\burger\app\Controllers\Home.php(42): view('register', NULL)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 20:41:43 --> Argument 2 passed to view() must be of the type array, null given, called in C:\burger\app\Controllers\Home.php on line 42
+#0 C:\burger\app\Controllers\Home.php(42): view('register', NULL)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 20:41:51 --> Argument 2 passed to view() must be of the type array, null given, called in C:\burger\app\Controllers\Home.php on line 42
+#0 C:\burger\app\Controllers\Home.php(42): view('register', NULL)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 20:42:04 --> Argument 2 passed to view() must be of the type array, null given, called in C:\burger\app\Controllers\Home.php on line 42
+#0 C:\burger\app\Controllers\Home.php(42): view('register', NULL)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 20:42:57 --> Argument 2 passed to view() must be of the type array, null given, called in C:\burger\app\Controllers\Home.php on line 43
+#0 C:\burger\app\Controllers\Home.php(43): view('register', NULL)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 21:33:43 --> Cannot redeclare App\Controllers\Home::aksi_e_profile()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-08-07 21:43:11 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:44:59 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:46:14 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:46:49 --> Cannot redeclare App\Controllers\Home::aksi_e_profile()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-08-07 21:47:01 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:47:10 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:47:23 --> Cannot redeclare App\Controllers\Home::aksi_e_profile()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-08-07 21:47:39 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:47:41 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:47:41 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:47:41 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:47:42 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:49:47 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:50:12 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:50:33 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:51:43 --> Class 'App\Controllers\M_gudang' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:51:59 --> Call to a member function edit() on null
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:52:17 --> Call to a member function edit() on null
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:52:28 --> Call to a member function edit() on null
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:54:46 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:56:41 --> syntax error, unexpected ';', expecting ')'
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/profile/')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/profile/')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-07 21:57:46 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:58:51 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 21:58:53 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 22:55:27 --> Too few arguments to function App\Controllers\Home::e_pesanan(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->e_pesanan()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 22:57:19 --> syntax error, unexpected '}'
+#0 C:\burger\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\burger\\app\\M...')
+#1 C:\burger\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_bu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_bu...')
+#3 C:\burger\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_bu...')
+#4 C:\burger\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\burger\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+CRITICAL - 2024-08-07 22:57:52 --> syntax error, unexpected '}'
+#0 C:\burger\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\burger\\app\\M...')
+#1 C:\burger\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_bu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_bu...')
+#3 C:\burger\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_bu...')
+#4 C:\burger\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\burger\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+CRITICAL - 2024-08-07 22:57:57 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\burger\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\burger\\app\\M...')
+#1 C:\burger\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_bu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_bu...')
+#3 C:\burger\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_bu...')
+#4 C:\burger\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\burger\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+CRITICAL - 2024-08-07 22:58:06 --> Too few arguments to function App\Controllers\Home::e_pesanan(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->e_pesanan()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 23:02:05 --> Too few arguments to function App\Controllers\Home::e_pesanan(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->e_pesanan()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 23:02:43 --> Too few arguments to function App\Controllers\Home::e_pesanan(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->e_pesanan()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-07 23:06:04 --> Class 'App\Controllers\KeranjangModel' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_keranjang()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}

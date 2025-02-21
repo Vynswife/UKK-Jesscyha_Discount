@@ -1,0 +1,504 @@
+ERROR - 2025-02-20 07:05:50 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:05:59 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:06:04 --> Column 'user_id' cannot be null
+ERROR - 2025-02-20 07:06:26 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:06:29 --> Column 'user_id' cannot be null
+ERROR - 2025-02-20 07:06:46 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:13:49 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:14:53 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:14:57 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:15:00 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:15:03 --> Column 'user_id' cannot be null
+ERROR - 2025-02-20 07:15:26 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:24:25 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:24:31 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:25:04 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:25:12 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:26:30 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:26:38 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:26:57 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:27:09 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:27:14 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:27:24 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:28:53 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:29:42 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:36:27 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:41:26 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:41:36 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:41:47 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 07:42:51 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 08:04:22 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 08:50:49 --> Error connecting to the database: Host 'localhost' is not allowed to connect to this MariaDB server
+CRITICAL - 2025-02-20 08:50:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(550): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\calc\app\Controllers\Home.php(125): App\Models\M_burger->tampilgambar('toko')
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-20 09:01:16 --> Column 'user_id' cannot be null
+ERROR - 2025-02-20 09:14:49 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-20 09:14:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(375): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\calc\app\Controllers\Home.php(358): App\Models\M_burger->joinduawhere('calculations', 'user', 'calculations.id...', 'created_at', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-20 09:33:15 --> MySQL server has gone away
+ERROR - 2025-02-20 09:34:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-20 09:34:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(375): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\calc\app\Controllers\Home.php(358): App\Models\M_burger->joinduawhere('calculations', 'user', 'calculations.id...', 'created_at', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+CRITICAL - 2025-02-20 09:41:37 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-02-20 09:41:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-20 09:41:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(375): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\calc\app\Controllers\Home.php(358): App\Models\M_burger->joinduawhere('calculations', 'user', 'calculations.id...', 'created_at', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+CRITICAL - 2025-02-20 09:58:27 --> fwrite(): write of 76 bytes failed with errno=22 Invalid argument
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): write...', 'C:\\calc\\system\\...', 995, Array)
+#1 C:\calc\system\CLI\CLI.php(995): fwrite(Resource id #2, '\e[0;32mCodeIgni...')
+#2 C:\calc\system\CLI\CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\e[0;32mCodeIgni...')
+#3 C:\calc\system\Commands\Server\Serve.php(97): CodeIgniter\CLI\CLI::write('\e[0;32mCodeIgni...', 'green')
+#4 C:\calc\system\Commands\Server\Serve.php(114): CodeIgniter\Commands\Server\Serve->run(Array)
+#5 C:\calc\system\CLI\Commands.php(63): CodeIgniter\Commands\Server\Serve->run(Array)
+#6 C:\calc\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('serve', Array)
+#7 C:\calc\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 C:\calc\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'serve')
+#9 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\calc\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 C:\calc\spark(63): CodeIgniter\CLI\Console->run()
+#13 {main}
+CRITICAL - 2025-02-20 09:58:27 --> Uncaught ErrorException: fwrite(): write of 2 bytes failed with errno=22 Invalid argument in C:\calc\system\CLI\CLI.php:995
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): write...', 'C:\\calc\\system\\...', 995, Array)
+#1 C:\calc\system\CLI\CLI.php(995): fwrite(Resource id #2, '\r\n')
+#2 C:\calc\system\CLI\CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\r\n')
+#3 C:\calc\system\CLI\CLI.php(441): CodeIgniter\CLI\CLI::write()
+#4 C:\calc\app\Views\errors\cli\error_exception.php(6): CodeIgniter\CLI\CLI::newLine()
+#5 C:\calc\system\Debug\Exceptions.php(234): include('C:\\calc\\app\\Vie...')
+#6 C:\calc\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#7 C:\calc\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#8 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#9 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-02-20 10:17:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-20 10:17:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(550): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\calc\app\Controllers\Home.php(125): App\Models\M_burger->tampilgambar('toko')
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-20 11:03:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-20 11:03:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(550): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\calc\app\Controllers\Home.php(125): App\Models\M_burger->tampilgambar('toko')
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-20 11:17:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-20 11:17:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(550): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\calc\app\Controllers\Home.php(125): App\Models\M_burger->tampilgambar('toko')
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-20 13:39:57 --> Table 'kalkulator.science' doesn't exist
+CRITICAL - 2025-02-20 13:39:57 --> Call to a member function getResult() on bool
+#0 C:\calc\app\Controllers\Home.php(390): App\Models\M_burger->joinduawhere('science', 'user', 'science.id_user...', 'created_at', Array)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-02-20 13:40:54 --> Unknown column 'science.id_user' in 'where clause'
+CRITICAL - 2025-02-20 13:40:54 --> Call to a member function getResult() on bool
+#0 C:\calc\app\Controllers\Home.php(390): App\Models\M_burger->joinduawhere('calculations', 'user', 'science.id_user...', 'created_at', Array)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-02-20 13:41:06 --> Unknown column 'science.id_user' in 'on clause'
+CRITICAL - 2025-02-20 13:41:06 --> Call to a member function getResult() on bool
+#0 C:\calc\app\Controllers\Home.php(390): App\Models\M_burger->joinduawhere('calculations', 'user', 'science.id_user...', 'created_at', Array)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-02-20 16:52:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-20 16:52:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(550): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\calc\app\Controllers\Home.php(125): App\Models\M_burger->tampilgambar('toko')
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-02-20 16:57:02 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 16:57:05 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 16:57:11 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:01:18 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:10:32 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:10:42 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:10:45 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:23:54 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:23:54 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:23:54 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:24:17 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:24:17 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:25:33 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:25:33 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:29:48 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:29:48 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:29:48 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:37:14 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:37:15 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:37:15 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:37:35 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:37:35 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:37:35 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:37:48 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:37:48 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:37:48 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:37:53 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:37:53 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:37:53 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:38:24 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:38:24 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:39:47 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:39:47 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:39:47 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:40:01 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:40:01 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:40:09 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:40:09 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:42:03 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:42:03 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:42:03 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:42:18 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:42:18 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:50:01 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:50:02 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:50:02 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:50:15 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:50:15 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(120): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:53:03 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 18:53:03 --> Table 'kalkulator.photos' doesn't exist
+CRITICAL - 2025-02-20 18:53:03 --> Call to a member function getResult() on bool
+#0 C:\calc\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\calc\app\Controllers\Home.php(146): CodeIgniter\BaseModel->findAll()
+#2 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getLatestHistory()
+#3 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#7 {main}
+ERROR - 2025-02-20 18:58:53 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:00:10 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:00:33 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:25:48 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:26:01 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:34:43 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:35:07 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:38:46 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:38:54 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:39:03 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:39:49 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:44:39 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:48:38 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:48:46 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:49:33 --> Can't write; duplicate key in table 'activity_logs'
+CRITICAL - 2025-02-20 19:49:49 --> syntax error, unexpected '<', expecting end of file
+#0 C:\calc\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/getLatestH...')
+#1 C:\calc\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/getLatestH...')
+#2 C:\calc\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-02-20 19:49:53 --> syntax error, unexpected '<', expecting end of file
+#0 C:\calc\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/getLatestH...')
+#1 C:\calc\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/getLatestH...')
+#2 C:\calc\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-02-20 19:49:59 --> syntax error, unexpected '<', expecting end of file
+#0 C:\calc\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/getLatestH...')
+#1 C:\calc\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/getLatestH...')
+#2 C:\calc\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-02-20 19:50:04 --> syntax error, unexpected '<', expecting end of file
+#0 C:\calc\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/getLatestH...')
+#1 C:\calc\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/getLatestH...')
+#2 C:\calc\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-02-20 19:50:09 --> syntax error, unexpected '<', expecting end of file
+#0 C:\calc\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/getLatestH...')
+#1 C:\calc\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/getLatestH...')
+#2 C:\calc\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-02-20 19:50:31 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:51:14 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 19:51:23 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:07:31 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:21:04 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:27:39 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:28:31 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:28:44 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:30:35 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:30:44 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:30:45 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:31:47 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:32:08 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:32:23 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:32:59 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:33:54 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:34:50 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:34:57 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:36:09 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:36:37 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:36:51 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:36:57 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:37:11 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:37:30 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:37:34 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:37:49 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:39:22 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:39:26 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:41:42 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:41:54 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:42:02 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:42:07 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:42:40 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:43:28 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:43:34 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:47:40 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:48:35 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:49:24 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:49:41 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:50:04 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:50:12 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:50:38 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:51:07 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:51:28 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:51:34 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:51:41 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:51:58 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:53:07 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:53:09 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:53:10 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:53:26 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-02-20 20:53:47 --> Can't write; duplicate key in table 'activity_logs'

@@ -1,0 +1,273 @@
+CRITICAL - 2024-07-24 00:29:04 --> Cannot redeclare App\Models\M_burger::edit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 00:30:10 --> Cannot redeclare App\Models\M_burger::edit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 00:44:39 --> Too few arguments to function App\Controllers\Home::aksi_reset(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_reset()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-07-24 00:45:13 --> Too few arguments to function App\Controllers\Home::aksi_reset(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_reset()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-07-24 00:45:15 --> Too few arguments to function App\Controllers\Home::aksi_reset(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_reset()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-07-24 00:45:15 --> Too few arguments to function App\Controllers\Home::aksi_reset(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_reset()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-07-24 00:45:15 --> Too few arguments to function App\Controllers\Home::aksi_reset(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_reset()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-07-24 00:45:17 --> Cannot redeclare App\Models\M_burger::edit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 00:45:20 --> Cannot redeclare App\Models\M_burger::edit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 00:45:21 --> Cannot redeclare App\Models\M_burger::edit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 00:45:56 --> Too few arguments to function App\Controllers\Home::aksi_reset(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_reset()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-07-24 01:37:27 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 01:37:35 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/beranda')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/beranda')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 01:37:37 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 01:37:39 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/beranda')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/beranda')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 01:37:39 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 01:37:41 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/beranda')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/beranda')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 01:37:42 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 01:37:45 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/beranda')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/beranda')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 01:37:48 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/beranda')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/beranda')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 01:44:53 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/burger')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/burger')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 19:28:24 --> syntax error, unexpected token "else"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/burger')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/burger')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 19:28:40 --> syntax error, unexpected token "elseif"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/burger')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/burger')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 19:29:29 --> syntax error, unexpected token "elseif"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/burger')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/burger')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 19:29:50 --> syntax error, unexpected token "elseif"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/burger')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/burger')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 19:29:51 --> syntax error, unexpected token "elseif"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/burger')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/burger')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 19:30:04 --> syntax error, unexpected token "public"
+#0 C:\burger\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/burger')
+#1 C:\burger\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/burger')
+#2 C:\burger\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-24 22:53:20 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 22:54:19 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 22:54:20 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 22:54:20 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 22:54:22 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 22:54:25 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-24 23:52:44 --> Undefined variable $kin
+#0 C:\burger\app\Views\setting.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 14)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('setting', Array, true)
+#4 C:\burger\app\Controllers\Home.php(145): view('setting', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->setting()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-24 23:52:53 --> Attempt to read property "pp_dashboard" on array
+#0 C:\burger\app\Views\setting.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\burger\\app\\V...', 14)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('setting', Array, true)
+#4 C:\burger\app\Controllers\Home.php(145): view('setting', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->setting()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-24 23:56:04 --> Unmatched '}'
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('setting', Array, true)
+#2 C:\burger\app\Controllers\Home.php(145): view('setting', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->setting()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-24 23:56:20 --> Undefined variable $jes
+#0 C:\burger\app\Views\setting.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 13)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('setting', Array, true)
+#4 C:\burger\app\Controllers\Home.php(145): view('setting', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->setting()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-24 23:59:51 --> Undefined variable $jes
+#0 C:\burger\app\Views\setting.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 13)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('setting', Array, true)
+#4 C:\burger\app\Controllers\Home.php(145): view('setting', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->setting()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-24 23:59:55 --> Undefined variable $jes
+#0 C:\burger\app\Views\setting.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 13)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('setting', Array, true)
+#4 C:\burger\app\Controllers\Home.php(145): view('setting', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->setting()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}

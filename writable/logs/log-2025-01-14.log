@@ -1,0 +1,156 @@
+ERROR - 2025-01-14 12:55:49 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-01-14 00:07:09 --> Unknown column 'calculations.id_user' in 'where clause'
+CRITICAL - 2025-01-14 00:07:09 --> Call to a member function getResult() on bool
+#0 C:\calc\app\Controllers\Home.php(478): App\Models\M_burger->joinduawhere('science', 'user', 'science.id_user...', 'created_at', Array)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-01-14 16:45:26 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2025-01-14 18:34:46 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 18:58:03 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 18:59:46 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:10:09 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:10:27 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:10:27 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:10:28 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:10:31 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:10:31 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:10:31 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:10:43 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:10:43 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:10:43 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:10:52 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:10:52 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:10:53 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:12:27 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:12:27 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:12:27 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:13:32 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:13:35 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:13:35 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:13:35 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:13:38 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:13:40 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:13:40 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:13:41 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:13:55 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:13:56 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:13:56 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:13:56 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:18:00 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:18:02 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:18:02 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:18:02 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:18:19 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:18:34 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:18:47 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:18:47 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:18:47 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:19:39 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:22:36 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:22:59 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:24:02 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:24:06 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:24:23 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:25:46 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:25:54 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:26:33 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:26:43 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:27:08 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:27:40 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:27:57 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:27:57 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:27:58 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:28:04 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:28:15 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:28:54 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:28:54 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:28:54 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:29:09 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:29:09 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:29:09 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 19:29:19 --> Table 'kalkulator.history_edit' doesn't exist
+ERROR - 2025-01-14 19:29:19 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-14 19:29:19 --> Column 'user_id' cannot be null
+ERROR - 2025-01-14 06:35:06 --> MySQL server has gone away
+CRITICAL - 2025-01-14 06:35:06 --> Call to a member function getResultArray() on bool
+#0 C:\calc\app\Controllers\Home.php(194): App\Models\M_burger->getActivityLogs()
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->activity_log()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-01-14 06:35:51 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-01-14 06:35:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `user`.`...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(550): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\calc\app\Controllers\Home.php(194): App\Models\M_burger->getActivityLogs()
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->activity_log()
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+ERROR - 2025-01-14 06:35:59 --> Unknown column 'activity_logs.id_user' in 'on clause'
+CRITICAL - 2025-01-14 06:35:59 --> Call to a member function getResultArray() on bool
+#0 C:\calc\app\Controllers\Home.php(194): App\Models\M_burger->getActivityLogs()
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->activity_log()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-01-14 06:40:43 --> Unknown column 'activity_logs.id_user' in 'on clause'
+ERROR - 2025-01-14 06:40:43 --> Query failed: SELECT `user`.`username`, `activity_logs`.`activity`, `activity_logs`.`description`, `activity_logs`.`timestamp`
+FROM `activity_logs`
+LEFT JOIN `user` ON `activity_logs`.`id_user` = `user`.`id_user`
+ORDER BY `activity_logs`.`timestamp` DESC
+ERROR - 2025-01-14 06:42:26 --> MySQL server has gone away
+CRITICAL - 2025-01-14 06:42:26 --> Call to a member function getResultArray() on bool
+#0 C:\calc\app\Controllers\Home.php(193): App\Models\M_burger->getActivityLogs()
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->activity_log()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-01-14 06:54:15 --> Argument 2 passed to view() must be of the type array, null given, called in C:\calc\app\Controllers\Home.php on line 125
+#0 C:\calc\app\Controllers\Home.php(125): view('header', NULL)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-01-14 06:54:50 --> Argument 2 passed to view() must be of the type array, null given, called in C:\calc\app\Controllers\Home.php on line 125
+#0 C:\calc\app\Controllers\Home.php(125): view('header', NULL)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-01-14 06:54:58 --> Argument 2 passed to view() must be of the type array, null given, called in C:\calc\app\Controllers\Home.php on line 125
+#0 C:\calc\app\Controllers\Home.php(125): view('header', NULL)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-01-14 06:55:11 --> Argument 2 passed to view() must be of the type array, null given, called in C:\calc\app\Controllers\Home.php on line 125
+#0 C:\calc\app\Controllers\Home.php(125): view('header', NULL)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}

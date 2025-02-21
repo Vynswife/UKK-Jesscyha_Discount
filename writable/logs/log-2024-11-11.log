@@ -1,0 +1,293 @@
+ERROR - 2024-11-11 11:56:10 --> Table 'office.transaksi' doesn't exist
+CRITICAL - 2024-11-11 11:56:10 --> Call to a member function getResult() on bool
+#0 C:\office\app\Controllers\Home.php(1455): App\Models\M_burger->joinAndGroupByTransaction()
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->pesanan()
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+ERROR - 2024-11-11 17:17:52 --> Can't write; duplicate key in table 'activity_logs'
+ERROR - 2024-11-11 07:42:28 --> Operand should contain 1 column(s)
+ERROR - 2024-11-11 07:43:28 --> Operand should contain 1 column(s)
+ERROR - 2024-11-11 07:45:34 --> Operand should contain 1 column(s)
+ERROR - 2024-11-11 07:50:07 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2024-11-11 08:35:38 --> Invalid argument supplied for foreach()
+#0 C:\office\app\Views\persuratan.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\office\\app\\V...', 163, Array)
+#1 C:\office\system\View\View.php(210): include('C:\\office\\app\\V...')
+#2 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('persuratan', Array, true)
+#4 C:\office\app\Controllers\Home.php(255): view('persuratan', Array)
+#5 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->surat_m()
+#6 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#10 {main}
+CRITICAL - 2024-11-11 09:05:12 --> Cannot redeclare App\Models\M_burger::tampil_join()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-11-11 21:46:17 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-11-11 21:46:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\office\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\office\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\office\app\Models\M_burger.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\office\app\Controllers\Home.php(254): App\Models\M_burger->tampil_join('surat_m', 'folder', 'surat_m.id_fold...', 'left', Array)
+#4 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#5 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#9 {main}
+ERROR - 2024-11-11 22:13:05 --> Unknown column 'nama_folder' in 'field list'
+ERROR - 2024-11-11 22:13:57 --> Unknown column 'nama_folder' in 'field list'
+ERROR - 2024-11-11 22:14:14 --> Unknown column 'nama_folder' in 'field list'
+ERROR - 2024-11-11 22:14:28 --> Unknown column 'nama_folder' in 'field list'
+ERROR - 2024-11-11 22:14:48 --> Unknown column 'nama_folder' in 'field list'
+ERROR - 2024-11-11 22:15:32 --> Unknown column 'nama_folder' in 'field list'
+ERROR - 2024-11-11 22:15:46 --> Unknown column 'nama_folder' in 'field list'
+ERROR - 2024-11-11 22:16:08 --> Unknown column 'nama_folder' in 'field list'
+CRITICAL - 2024-11-11 22:26:21 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:26:54 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:26:56 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:26:56 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:26:56 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:26:59 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:26:59 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:27:00 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:27:01 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:27:02 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:27:07 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:27:09 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:27:10 --> Cannot use object of type stdClass as array
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:36:21 --> Call to a member function model() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:38:20 --> Call to a member function model() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:38:37 --> Call to a member function model() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:39:34 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:51 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:52 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:52 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:52 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:52 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:53 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:54 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:55 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:55 --> Call to a member function getDocumentsByFolder() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:40:56 --> Call to a member function getAllFolders() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:41:03 --> Call to a member function getAllFolders() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:41:34 --> Call to a member function getAllFolders() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:41:38 --> Call to a member function getAllFolders() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:41:38 --> Call to a member function getAllFolders() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:41:39 --> Call to a member function getAllFolders() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:41:39 --> Call to a member function getAllFolders() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:41:39 --> Call to a member function getAllFolders() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->folder()
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-11 22:57:40 --> Cannot redeclare App\Controllers\Home::folder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,133 @@
+ERROR - 2024-08-12 09:48:48 --> Unknown column 'user_id' in 'field list'
+ERROR - 2024-08-12 09:49:04 --> Unknown column 'user_id' in 'field list'
+ERROR - 2024-08-12 09:49:12 --> Unknown column 'user_id' in 'field list'
+ERROR - 2024-08-12 09:49:21 --> Unknown column 'user_id' in 'field list'
+ERROR - 2024-08-12 09:51:28 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 09:58:56 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:01:39 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:02:17 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:02:34 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:08:52 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:09:48 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:10:53 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:11:46 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:12:42 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:12:58 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:17:06 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:19:34 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:20:34 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:22:11 --> Column 'id_user' cannot be null
+ERROR - 2024-08-12 10:40:15 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 10:42:11 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 10:51:53 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 10:51:53 --> Failed to insert history_edit data: Array
+ERROR - 2024-08-12 10:51:59 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 10:51:59 --> Failed to insert history_edit data: Array
+ERROR - 2024-08-12 10:52:51 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 10:52:51 --> Failed to insert history_edit data: Array
+ERROR - 2024-08-12 10:53:44 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 10:53:44 --> Failed to insert history_edit data: Array
+ERROR - 2024-08-12 11:08:11 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 11:08:11 --> Failed to insert history_edit data: Array
+ERROR - 2024-08-12 11:50:16 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 11:50:16 --> Failed to insert history_edit data: Array
+ERROR - 2024-08-12 11:51:56 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 11:51:56 --> Failed to insert history_edit data: Array
+ERROR - 2024-08-12 00:00:43 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-08-12 12:01:23 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 12:01:23 --> Failed to insert history_edit data: Array
+CRITICAL - 2024-08-12 00:05:18 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-12 00:05:27 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-12 00:05:31 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-12 00:07:12 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in C:\burger\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-12 00:30:18 --> Call to a member function get() on null
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksietoko()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-12 00:31:33 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::session()
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksietoko()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+ERROR - 2024-08-12 12:38:56 --> Column 'user_id' cannot be null
+ERROR - 2024-08-12 12:38:56 --> Failed to insert history_edit data: Array
+ERROR - 2024-08-12 06:26:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-08-12 06:26:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\burger\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\burger\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\burger\app\Models\M_burger.php(115): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\burger\app\Controllers\Home.php(81): App\Models\M_burger->getWhere('user', Array)
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+CRITICAL - 2024-08-12 06:49:09 --> Argument 2 passed to view() must be of the type array, null given, called in C:\burger\app\Controllers\Home.php on line 114
+#0 C:\burger\app\Controllers\Home.php(114): view('menu', NULL)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->confirmLogout()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-12 23:02:43 --> Class 'App\Controllers\KeranjangModel' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_keranjang()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-12 23:07:59 --> Class 'App\Controllers\KeranjangModel' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_keranjang()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-12 23:08:29 --> Class 'App\Controllers\KeranjangModel' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_keranjang()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-12 23:08:43 --> Class 'App\Controllers\KeranjangModel' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_keranjang()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}

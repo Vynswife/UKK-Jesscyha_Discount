@@ -1,0 +1,61 @@
+CRITICAL - 2024-08-13 00:00:28 --> Class 'App\Controllers\M_trader' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->logout()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-13 00:13:30 --> Class 'App\Models\HsLoginModel' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-13 00:26:55 --> Cannot use object of type stdClass as array
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-13 00:28:13 --> Cannot use object of type stdClass as array
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}
+CRITICAL - 2024-08-13 00:47:26 --> Argument 2 passed to App\Models\M_burger::insert() must be of the type bool, array given, called in C:\burger\app\Controllers\Home.php on line 97
+#0 C:\burger\app\Controllers\Home.php(97): App\Models\M_burger->insert('hs_login', Array)
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-08-13 00:50:00 --> Trait 'App\Controllers\App\Models\M_HsLogin' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-08-13 00:50:22 --> Trait 'App\Controllers\App\Models\M_HsLogin' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-08-13 00:54:04 --> Invalid argument supplied for foreach()
+#0 C:\burger\app\Views\activity_log.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\burger\\app\\V...', 108, Array)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('activity_log', Array, true)
+#4 C:\burger\app\Controllers\Home.php(160): view('activity_log', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->activity_log()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-08-13 00:57:03 --> Class 'App\Controllers\KeranjangModel' not found
+#0 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_e_keranjang()
+#1 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#5 {main}

@@ -1,0 +1,7 @@
+ERROR - 2024-11-24 10:29:42 --> Column 'user_id' cannot be null
+ERROR - 2024-11-24 10:30:17 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2024-11-24 10:30:17 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-24 10:30:18 --> Column 'user_id' cannot be null
+ERROR - 2024-11-24 10:30:33 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2024-11-24 10:30:33 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-24 10:30:34 --> Column 'user_id' cannot be null

@@ -1,0 +1,40 @@
+ERROR - 2025-01-07 12:53:14 --> Column 'user_id' cannot be null
+ERROR - 2025-01-07 12:53:16 --> Column 'user_id' cannot be null
+ERROR - 2025-01-07 12:53:21 --> Column 'user_id' cannot be null
+ERROR - 2025-01-07 12:55:17 --> Column 'user_id' cannot be null
+ERROR - 2025-01-07 12:57:59 --> Column 'user_id' cannot be null
+ERROR - 2025-01-07 12:58:14 --> Column 'user_id' cannot be null
+ERROR - 2025-01-07 12:58:28 --> Column 'user_id' cannot be null
+ERROR - 2025-01-07 12:59:08 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2025-01-07 12:59:08 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-07 12:59:08 --> Column 'user_id' cannot be null
+ERROR - 2025-01-07 12:59:23 --> Table 'sharing.history_edit' doesn't exist
+ERROR - 2025-01-07 12:59:23 --> Failed to insert history_edit data: Array
+ERROR - 2025-01-07 12:59:23 --> Column 'user_id' cannot be null
+ERROR - 2025-01-07 00:15:29 --> Unknown column 'notification.id_user' in 'on clause'
+CRITICAL - 2025-01-07 00:15:29 --> Call to a member function getResult() on bool
+#0 C:\sharin\app\Controllers\Home.php(423): App\Models\M_burger->tampil_join('notification', 'user', 'notification.id...')
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+ERROR - 2025-01-07 00:16:21 --> Unknown column 'notification.id_user' in 'on clause'
+CRITICAL - 2025-01-07 00:16:21 --> Call to a member function getResult() on bool
+#0 C:\sharin\app\Controllers\Home.php(423): App\Models\M_burger->tampil_join1('notification', 'user', 'notification.id...')
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+ERROR - 2025-01-07 00:17:31 --> Unknown column 'notification.id_user' in 'on clause'
+CRITICAL - 2025-01-07 00:17:31 --> Call to a member function getResult() on bool
+#0 C:\sharin\app\Controllers\Home.php(423): App\Models\M_burger->tampil_join1('notification', 'user', 'notification.id...')
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}

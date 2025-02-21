@@ -1,0 +1,100 @@
+ERROR - 2024-11-09 00:49:51 --> Unknown column 'no_agenda' in 'field list'
+ERROR - 2024-11-09 00:55:38 --> Unknown column 'pengirim' in 'field list'
+ERROR - 2024-11-09 00:58:25 --> Unknown column 'no_agenda' in 'field list'
+ERROR - 2024-11-09 01:09:23 --> Unknown column 'no_agenda' in 'field list'
+CRITICAL - 2024-11-09 01:26:34 --> Call to a member function getSuratById() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->generatePdf('1')
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-09 01:27:55 --> Call to a member function getSuratById() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->generatePdf('1')
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-09 01:29:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+#0 C:\office\app\Controllers\Home.php(364): App\Models\M_burger->getSuratById('1')
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->generatePdf('1')
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+ERROR - 2024-11-09 01:29:48 --> Table 'office.surat' doesn't exist
+CRITICAL - 2024-11-09 01:29:48 --> Call to a member function getRow() on bool
+#0 C:\office\app\Controllers\Home.php(364): App\Models\M_burger->getSuratById('1')
+#1 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->generatePdf('1')
+#2 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#6 {main}
+CRITICAL - 2024-11-09 01:30:02 --> Call to a member function library() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->generatePdf('1')
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-09 01:31:01 --> Invalid argument supplied for foreach()
+#0 C:\office\app\Views\pdf_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\office\\app\\V...', 55, Array)
+#1 C:\office\system\View\View.php(210): include('C:\\office\\app\\V...')
+#2 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('pdf_view', Array, true)
+#4 C:\office\app\Controllers\Home.php(370): view('pdf_view', Array)
+#5 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->generatePdf('1')
+#6 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#10 {main}
+CRITICAL - 2024-11-09 01:32:03 --> Call to a member function getSuratById() on null
+#0 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->generatePdf('1')
+#1 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#5 {main}
+CRITICAL - 2024-11-09 01:32:09 --> Invalid argument supplied for foreach()
+#0 C:\office\app\Views\pdf_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\office\\app\\V...', 55, Array)
+#1 C:\office\system\View\View.php(210): include('C:\\office\\app\\V...')
+#2 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('pdf_view', Array, true)
+#4 C:\office\app\Controllers\Home.php(370): view('pdf_view', Array)
+#5 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->generatePdf('1')
+#6 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#10 {main}
+CRITICAL - 2024-11-09 01:32:36 --> Invalid argument supplied for foreach()
+#0 C:\office\app\Views\pdf_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\office\\app\\V...', 55, Array)
+#1 C:\office\system\View\View.php(210): include('C:\\office\\app\\V...')
+#2 C:\office\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\office\system\Common.php(1089): CodeIgniter\View\View->render('pdf_view', Array, true)
+#4 C:\office\app\Controllers\Home.php(370): view('pdf_view', Array)
+#5 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->generatePdf('1')
+#6 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#10 {main}
+ERROR - 2024-11-09 23:57:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-11-09 23:57:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\office\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\office\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\office\app\Models\M_burger.php(144): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\office\app\Controllers\Home.php(73): App\Models\M_burger->getWhere('user', Array)
+#4 C:\office\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\office\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\office\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\office\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\office\system\Commands\Server\rewrite.php(43): require_once('C:\\office\\publi...')
+#9 {main}

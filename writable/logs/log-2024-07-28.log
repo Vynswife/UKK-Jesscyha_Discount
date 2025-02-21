@@ -1,0 +1,169 @@
+CRITICAL - 2024-07-28 23:03:13 --> Unclosed '{' on line 56
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('menu_burger', Array, true)
+#2 C:\burger\app\Controllers\Home.php(210): view('menu_burger', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-28 23:03:37 --> Unclosed '{' on line 56
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('menu_burger', Array, true)
+#2 C:\burger\app\Controllers\Home.php(210): view('menu_burger', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-28 23:04:18 --> Unclosed '{' on line 56
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('menu_burger', Array, true)
+#2 C:\burger\app\Controllers\Home.php(210): view('menu_burger', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-28 23:05:16 --> Undefined variable $menus
+#0 C:\burger\app\Views\menu_burger.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 74)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('menu_burger', Array, true)
+#4 C:\burger\app\Controllers\Home.php(210): view('menu_burger', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-28 23:06:56 --> Undefined variable $menus
+#0 C:\burger\app\Views\menu_burger.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\burger\\app\\V...', 74)
+#1 C:\burger\system\View\View.php(210): include('C:\\burger\\app\\V...')
+#2 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('menu_burger', Array, true)
+#4 C:\burger\app\Controllers\Home.php(210): view('menu_burger', Array)
+#5 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#6 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#10 {main}
+CRITICAL - 2024-07-28 23:33:33 --> syntax error, unexpected token "<", expecting "elseif" or "else" or "endif"
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('menu_burger', Array, true)
+#2 C:\burger\app\Controllers\Home.php(210): view('menu_burger', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-28 23:33:36 --> syntax error, unexpected token "<", expecting "elseif" or "else" or "endif"
+#0 C:\burger\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\burger\system\Common.php(1089): CodeIgniter\View\View->render('menu_burger', Array, true)
+#2 C:\burger\app\Controllers\Home.php(210): view('menu_burger', Array)
+#3 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#4 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#8 {main}
+CRITICAL - 2024-07-28 23:36:30 --> Too few arguments to function App\Models\M_burger::join(), 3 passed in C:\burger\app\Controllers\Home.php on line 207 and exactly 4 expected
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->join('makanan', 'form', 'form.id_makanan...')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-28 23:36:51 --> Too few arguments to function App\Models\M_burger::join(), 3 passed in C:\burger\app\Controllers\Home.php on line 207 and exactly 4 expected
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->join('form', 'makanan', 'form.id_makanan...')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-28 23:36:53 --> Too few arguments to function App\Models\M_burger::join(), 3 passed in C:\burger\app\Controllers\Home.php on line 207 and exactly 4 expected
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->join('form', 'makanan', 'form.id_makanan...')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-28 23:36:53 --> Too few arguments to function App\Models\M_burger::join(), 3 passed in C:\burger\app\Controllers\Home.php on line 207 and exactly 4 expected
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->join('form', 'makanan', 'form.id_makanan...')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-28 23:37:05 --> Too few arguments to function App\Models\M_burger::join(), 3 passed in C:\burger\app\Controllers\Home.php on line 207 and exactly 4 expected
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->join('form', 'makanan', 'form.id_makanan...')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-28 23:37:11 --> Too few arguments to function App\Models\M_burger::join(), 3 passed in C:\burger\app\Controllers\Home.php on line 207 and exactly 4 expected
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->join('form', 'makanan', 'form.id_makanan...')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+CRITICAL - 2024-07-28 23:37:47 --> Cannot redeclare App\Models\M_burger::joinn()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-28 23:38:05 --> Too few arguments to function App\Models\M_burger::joinn(), 3 passed in C:\burger\app\Controllers\Home.php on line 207 and exactly 4 expected
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->joinn('form', 'makanan', 'form.id_makanan...')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-07-28 23:41:42 --> Column 'id_makanan' in order clause is ambiguous
+CRITICAL - 2024-07-28 23:41:42 --> Call to a member function getResult() on bool
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->joinn('form', 'makanan', 'form.id_makanan...', 'id_makanan')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-07-28 23:42:50 --> Column 'id_makanan' in order clause is ambiguous
+CRITICAL - 2024-07-28 23:42:50 --> Call to a member function getResult() on bool
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->joinn('form', 'makanan', 'form.id_makanan...', 'id_makanan')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-07-28 23:42:51 --> Column 'id_makanan' in order clause is ambiguous
+CRITICAL - 2024-07-28 23:42:51 --> Call to a member function getResult() on bool
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->joinn('form', 'makanan', 'form.id_makanan...', 'id_makanan')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}
+ERROR - 2024-07-28 23:43:09 --> Column 'id_makanan' in order clause is ambiguous
+CRITICAL - 2024-07-28 23:43:09 --> Call to a member function getRow() on bool
+#0 C:\burger\app\Controllers\Home.php(207): App\Models\M_burger->joinn('form', 'makanan', 'form.id_makanan...', 'id_makanan')
+#1 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->burger()
+#2 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#6 {main}

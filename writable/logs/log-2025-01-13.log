@@ -1,0 +1,796 @@
+CRITICAL - 2025-01-13 00:24:18 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\cina\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/posts')
+#1 C:\cina\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/posts')
+#2 C:\cina\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#6 {main}
+CRITICAL - 2025-01-13 00:30:49 --> Cannot use object of type stdClass as array
+#0 C:\cina\system\View\View.php(210): include()
+#1 C:\cina\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\cina\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#3 C:\cina\app\Controllers\Home.php(433): view('posts', Array)
+#4 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#5 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#9 {main}
+CRITICAL - 2025-01-13 00:31:30 --> Cannot use object of type stdClass as array
+#0 C:\cina\system\View\View.php(210): include()
+#1 C:\cina\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\cina\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#3 C:\cina\app\Controllers\Home.php(425): view('posts', Array)
+#4 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#5 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#9 {main}
+CRITICAL - 2025-01-13 00:33:59 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:34:07 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:34:12 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:34:17 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:34:22 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:34:27 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:34:32 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:34:37 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:34:42 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:34:47 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:00 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:05 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:10 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:15 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:20 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:25 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:30 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:35 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:40 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:45 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:50 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:35:55 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:36:00 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:36:05 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:36:10 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:37:10 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:37:15 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:41:54 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:42:03 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:42:36 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:46:55 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:47:15 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:47:21 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:47:31 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:47:31 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:47:32 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:47:32 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:47:37 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:47:47 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:47:57 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:51:35 --> Call to undefined method App\Models\M_burger::tampilbycreate
+#0 C:\cina\app\Controllers\Home.php(414): CodeIgniter\Model->__call('tampilbycreate', Array)
+#1 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#2 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#6 {main}
+CRITICAL - 2025-01-13 00:51:55 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:52:07 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:52:17 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:53:47 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:55:56 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:57:45 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:57:50 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:58:02 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 00:58:08 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:00:58 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:04:56 --> Cannot use object of type stdClass as array
+#0 C:\cina\system\View\View.php(210): include()
+#1 C:\cina\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\cina\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#3 C:\cina\app\Controllers\Home.php(425): view('posts', Array)
+#4 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#5 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#9 {main}
+CRITICAL - 2025-01-13 01:05:17 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:05:28 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:06:50 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:06:52 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:07:27 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:07:39 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:08:13 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:08:22 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:08:26 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:08:46 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:09:20 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:09:26 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:11:13 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 01:11:19 --> Call to a member function getResultArray() on array
+#0 C:\cina\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\cina\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\cina\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\cina\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\cina\system\Commands\Server\rewrite.php(43): require_once('C:\\cina\\public\\...')
+#5 {main}
+ERROR - 2025-01-13 04:11:10 --> Error connecting to the database: Unknown database 'kalkulator'
+CRITICAL - 2025-01-13 04:11:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'kalkulator'
+#0 C:\calc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\calc\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\calc\app\Models\M_burger.php(295): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\calc\app\Controllers\Home.php(107): App\Models\M_burger->getWhere('user', Array)
+#4 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#9 {main}
+CRITICAL - 2025-01-13 04:16:36 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:17:09 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:17:19 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:17:32 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:17:38 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:17:40 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:17:41 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:17:44 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:18:46 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:19:01 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 04:54:17 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:00:46 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:00:57 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:01:02 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:01:11 --> Too few arguments to function App\Models\M_burger::joinduawhere(), 4 passed in C:\calc\app\Controllers\Home.php on line 415 and exactly 5 expected
+#0 C:\calc\app\Controllers\Home.php(415): App\Models\M_burger->joinduawhere('calculations', 'user', 'calculations.id...', Array)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-01-13 05:02:22 --> Too few arguments to function App\Models\M_burger::joinduawhere(), 4 passed in C:\calc\app\Controllers\Home.php on line 415 and exactly 5 expected
+#0 C:\calc\app\Controllers\Home.php(415): App\Models\M_burger->joinduawhere('calculations', 'user', 'calculations.id...', Array)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+ERROR - 2025-01-13 05:02:52 --> Column 'id_user' in where clause is ambiguous
+CRITICAL - 2025-01-13 05:02:52 --> Call to a member function getResult() on bool
+#0 C:\calc\app\Controllers\Home.php(415): App\Models\M_burger->joinduawhere('calculations', 'user', 'calculations.id...', 'created_at', Array)
+#1 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#2 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#6 {main}
+CRITICAL - 2025-01-13 05:06:43 --> Invalid argument supplied for foreach()
+#0 C:\calc\app\Views\posts.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\calc\\app\\Vie...', 181, Array)
+#1 C:\calc\system\View\View.php(210): include('C:\\calc\\app\\Vie...')
+#2 C:\calc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\calc\system\Common.php(1089): CodeIgniter\View\View->render('posts', Array, true)
+#4 C:\calc\app\Controllers\Home.php(433): view('posts', Array)
+#5 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts('1')
+#6 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#10 {main}
+CRITICAL - 2025-01-13 05:06:58 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:07:10 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:07:15 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:08:44 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+ERROR - 2025-01-13 05:08:49 --> Column 'id_user' cannot be null
+CRITICAL - 2025-01-13 05:08:49 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:08:55 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:09:50 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:09:54 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:10:15 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:23:42 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:23:51 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:23:56 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:24:54 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:24:57 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:25:25 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:25:26 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:25:28 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:25:30 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:25:47 --> Call to a member function getResultArray() on array
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->getHistory()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:27:12 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:27:28 --> Too few arguments to function App\Controllers\Home::posts(), 0 passed in C:\calc\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\calc\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#1 C:\calc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\calc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\calc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\calc\system\Commands\Server\rewrite.php(43): require_once('C:\\calc\\public\\...')
+#5 {main}
+CRITICAL - 2025-01-13 05:49:28 --> Cannot redeclare App\Controllers\Home::post()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

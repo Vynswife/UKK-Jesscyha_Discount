@@ -1,0 +1,172 @@
+CRITICAL - 2024-11-20 04:32:02 --> Invalid file: t_user.php
+#0 C:\allure\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('t_user.php')
+#1 C:\allure\system\Common.php(1089): CodeIgniter\View\View->render('t_user', Array, true)
+#2 C:\allure\app\Controllers\Home.php(1241): view('t_user', Array)
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_user()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+CRITICAL - 2024-11-20 04:32:19 --> Invalid file: t_user.php
+#0 C:\allure\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('t_user.php')
+#1 C:\allure\system\Common.php(1089): CodeIgniter\View\View->render('t_user', Array, true)
+#2 C:\allure\app\Controllers\Home.php(1241): view('t_user', Array)
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->t_user()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+CRITICAL - 2024-11-20 05:35:12 --> Cannot redeclare App\Controllers\Home::setting()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-20 05:36:31 --> Invalid file: error_404.php
+#0 C:\allure\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_404.php')
+#1 C:\allure\system\Common.php(1089): CodeIgniter\View\View->render('error_404', Array, true)
+#2 C:\allure\app\Controllers\Home.php(194): view('error_404', Array)
+#3 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->error_404()
+#4 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#8 {main}
+ERROR - 2024-11-20 19:27:59 --> Column 'user_id' cannot be null
+ERROR - 2024-11-20 06:28:32 --> Table 'design.keranjang' doesn't exist
+ERROR - 2024-11-20 06:29:22 --> Table 'design.keranjang' doesn't exist
+CRITICAL - 2024-11-20 06:33:33 --> Too few arguments to function App\Controllers\Home::h_photo(), 0 passed in C:\allure\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->h_photo()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-20 06:34:14 --> Too few arguments to function App\Controllers\Home::h_photo(), 0 passed in C:\allure\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->h_photo()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-20 06:34:24 --> Too few arguments to function App\Controllers\Home::h_photo(), 0 passed in C:\allure\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->h_photo()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+ERROR - 2024-11-20 19:49:04 --> Table 'design.history_edit' doesn't exist
+ERROR - 2024-11-20 19:49:04 --> Failed to insert history_edit data: Array
+ERROR - 2024-11-20 19:50:01 --> Table 'design.history_edit' doesn't exist
+ERROR - 2024-11-20 19:50:01 --> Failed to insert history_edit data: Array
+CRITICAL - 2024-11-20 06:50:01 --> Too few arguments to function App\Controllers\Home::order(), 0 passed in C:\allure\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-20 06:50:53 --> Too few arguments to function App\Controllers\Home::order(), 0 passed in C:\allure\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\allure\system\CodeIgniter.php(832): App\Controllers\Home->order()
+#1 C:\allure\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\allure\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\allure\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\allure\system\Commands\Server\rewrite.php(43): require_once('C:\\allure\\publi...')
+#5 {main}
+CRITICAL - 2024-11-20 08:12:14 --> Too few arguments to function App\Models\M_burger::getWherejoin1(), 6 passed in C:\sharin\app\Controllers\Home.php on line 440 and exactly 8 expected
+#0 C:\sharin\app\Controllers\Home.php(440): App\Models\M_burger->getWherejoin1('posts', 'user', 'posts.id_user =...', 'mapel', 'posts.id_mapel ...', Array)
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+CRITICAL - 2024-11-20 08:21:37 --> Too few arguments to function App\Models\M_burger::getWherejoin1(), 6 passed in C:\sharin\app\Controllers\Home.php on line 440 and exactly 8 expected
+#0 C:\sharin\app\Controllers\Home.php(440): App\Models\M_burger->getWherejoin1('posts', 'user', 'posts.id_user =...', 'mapel', 'posts.id_mapel ...', Array)
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+CRITICAL - 2024-11-20 08:29:08 --> Invalid argument supplied for foreach()
+#0 C:\sharin\app\Views\post.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\sharin\\app\\V...', 3, Array)
+#1 C:\sharin\system\View\View.php(210): include('C:\\sharin\\app\\V...')
+#2 C:\sharin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\sharin\system\Common.php(1089): CodeIgniter\View\View->render('post', Array, true)
+#4 C:\sharin\app\Controllers\Home.php(458): view('post', Array)
+#5 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#6 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#10 {main}
+CRITICAL - 2024-11-20 08:32:19 --> Cannot use object of type stdClass as array
+#0 C:\sharin\system\View\View.php(210): include()
+#1 C:\sharin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\sharin\system\Common.php(1089): CodeIgniter\View\View->render('post', Array, true)
+#3 C:\sharin\app\Controllers\Home.php(458): view('post', Array)
+#4 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#5 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#9 {main}
+CRITICAL - 2024-11-20 08:40:11 --> Cannot redeclare App\Controllers\Home::album()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-11-20 08:40:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_user` USING (`mapel`)' at line 4
+CRITICAL - 2024-11-20 08:40:49 --> Call to a member function getResult() on bool
+#0 C:\sharin\app\Controllers\Home.php(442): App\Models\M_burger->tampil_join3('posts', 'user', 'posts.id_user =...', 'mapel', 'posts.id_mapel ...')
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+ERROR - 2024-11-20 08:42:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_user` ON `posts`.`id_mapel` = `mapel`.`id_mapel`' at line 4
+CRITICAL - 2024-11-20 08:42:09 --> Call to a member function getResult() on bool
+#0 C:\sharin\app\Controllers\Home.php(442): App\Models\M_burger->tampil_join3('posts', 'user', 'posts.id_user =...', 'mapel', 'posts.id_mapel ...')
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->posts()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+CRITICAL - 2024-11-20 08:55:07 --> Invalid argument supplied for foreach()
+#0 C:\sharin\app\Views\post.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\sharin\\app\\V...', 60, Array)
+#1 C:\sharin\system\View\View.php(210): include('C:\\sharin\\app\\V...')
+#2 C:\sharin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\sharin\system\Common.php(1089): CodeIgniter\View\View->render('post', Array, true)
+#4 C:\sharin\app\Controllers\Home.php(487): view('post', Array)
+#5 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post('1')
+#6 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#10 {main}
+CRITICAL - 2024-11-20 09:05:46 --> Call to a member function getName() on null
+#0 C:\sharin\app\Controllers\Home.php(508): App\Models\M_burger->upload(NULL)
+#1 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->t_post()
+#2 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#6 {main}
+ERROR - 2024-11-20 09:05:54 --> Table 'sharing.post' doesn't exist
+CRITICAL - 2024-11-20 09:05:54 --> Too few arguments to function App\Controllers\Home::post(), 0 passed in C:\sharin\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post()
+#1 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#5 {main}
+CRITICAL - 2024-11-20 09:06:42 --> Too few arguments to function App\Controllers\Home::post(), 0 passed in C:\sharin\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\sharin\system\CodeIgniter.php(832): App\Controllers\Home->post()
+#1 C:\sharin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\sharin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\sharin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\sharin\system\Commands\Server\rewrite.php(43): require_once('C:\\sharin\\publi...')
+#5 {main}
+ERROR - 2024-11-20 09:07:26 --> Table 'sharing.post' doesn't exist
+ERROR - 2024-11-20 09:08:00 --> Unknown column 'mapel' in 'field list'

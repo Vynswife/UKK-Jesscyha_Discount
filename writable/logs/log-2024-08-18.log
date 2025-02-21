@@ -1,0 +1,72 @@
+ERROR - 2024-08-18 01:51:21 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-08-18 01:51:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\burger\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\burger\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\burger\app\Models\M_burger.php(144): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\burger\app\Controllers\Home.php(96): App\Models\M_burger->getWhere('user', Array)
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+ERROR - 2024-08-18 01:52:26 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-08-18 01:52:26 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\burger\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\burger\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\burger\app\Models\M_burger.php(144): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\burger\app\Controllers\Home.php(96): App\Models\M_burger->getWhere('user', Array)
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+ERROR - 2024-08-18 01:52:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-08-18 01:52:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\burger\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\burger\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\burger\app\Models\M_burger.php(144): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\burger\app\Controllers\Home.php(96): App\Models\M_burger->getWhere('user', Array)
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+ERROR - 2024-08-18 01:58:39 --> Unknown column 'status' in 'where clause'
+ERROR - 2024-08-18 02:37:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-08-18 02:37:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\burger\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\burger\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\burger\app\Models\M_burger.php(287): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\burger\app\Controllers\Home.php(242): App\Models\M_burger->tampilgambar('toko')
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->setting()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}
+ERROR - 2024-08-18 02:37:30 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-08-18 02:37:30 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\burger\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\burger\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\burger\app\Models\M_burger.php(287): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\burger\app\Controllers\Home.php(242): App\Models\M_burger->tampilgambar('toko')
+#4 C:\burger\system\CodeIgniter.php(832): App\Controllers\Home->setting()
+#5 C:\burger\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\burger\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\burger\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\burger\system\Commands\Server\rewrite.php(43): require_once('C:\\burger\\publi...')
+#9 {main}

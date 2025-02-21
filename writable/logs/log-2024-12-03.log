@@ -1,0 +1,8 @@
+ERROR - 2024-12-03 07:33:24 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-03 07:36:10 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-03 09:36:28 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-03 10:08:14 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-03 10:09:15 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-03 14:25:25 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2024-12-03 14:26:04 --> Column 'user_id' cannot be null
+ERROR - 2024-12-03 14:34:52 --> Duplicate entry '0' for key 'PRIMARY'
